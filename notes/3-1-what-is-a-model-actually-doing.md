@@ -41,7 +41,7 @@ sounds exactly as convincing. Same fluency, same confidence, no
 tongue.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Text so far"] -->|score every possible next chunk| B["Probabilities"]
     B -->|weighted pick| C["Next chunk"]
     C -->|append| A

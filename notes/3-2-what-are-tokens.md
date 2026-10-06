@@ -28,11 +28,11 @@ Tokens are the telegram words of AI, with two differences. The meter runs in bot
 
 ```mermaid
 flowchart LR
-    Y["You"] -->|tokens in (metered)| M["Model"]
-    M -->|tokens out (metered)| Y
+    Y["You"] -->|"tokens in (metered)"| M["Model"]
+    M -->|"tokens out (metered)"| Y
     Y -->|sum| B["The bill"]
     M -->|sum| B
-    H["Hidden reasoning"] -.->|also metered, invisible| B
+    H["Hidden reasoning"] -.->|"also metered, invisible"| B
 ```
 
 ```interactive

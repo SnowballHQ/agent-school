@@ -32,7 +32,7 @@ Here is the analogy. Picture an engineer who builds a bridge, and who also walke
 > A perfectly built bridge in the wrong place is still a useless bridge, and only the person who walked the riverbank would have known.
 
 ```mermaid
-flowchart LR
+flowchart TD
     W["Walk the riverbank (discover)"] -->|becomes a brief| B["Build the bridge"]
     B -->|is proven by| T["Drive the first truck (verify)"]
     T -->|is explained at| C["The town council (present)"]
