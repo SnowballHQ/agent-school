@@ -48,7 +48,7 @@ like this:
 > it in advance. Skipping ahead and coming back works too.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Cover to cover (shelves 0–11)"] -->|reach| N["The same 42 notes"]
     B["The mission path"] -->|reach| N
     G["Your agent"] -.->|re-explains any of them| N

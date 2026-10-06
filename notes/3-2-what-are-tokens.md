@@ -27,7 +27,7 @@ Tokens are the telegram words of AI, with two differences. The meter runs in bot
 > The meter runs on what you send and what comes back, and the worst charges are the ones you never see.
 
 ```mermaid
-flowchart LR
+flowchart TD
     Y["You"] -->|"tokens in (metered)"| M["Model"]
     M -->|"tokens out (metered)"| Y
     Y -->|sum| B["The bill"]

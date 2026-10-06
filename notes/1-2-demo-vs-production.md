@@ -30,7 +30,7 @@ Here is the analogy. Passing a driving test in an empty car park proves you can 
 > The gap between sample and population is where surprises are stored. You only choose how expensive they are.
 
 ```mermaid
-flowchart LR
+flowchart TD
     D["Friendly sample (demo)"] -->|always| W["Works"]
     P["All real inputs (production)"] -->|hides| S["Surprises"]
     C["Count first on real data"] -->|moves the surprise to| M["A cheap moment"]

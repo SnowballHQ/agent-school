@@ -23,7 +23,7 @@ Here is the analogy. Imagine a die with thousands of faces, where likelier chunk
 Early rolls matter most. Once one chunk is chosen, every later prediction builds on it, so a different early roll sends the whole answer down a different road.
 
 ```mermaid
-flowchart LR
+flowchart TD
     P["One prompt"] -->|weighted roll| A1["Answer 1"]
     P -->|weighted roll| A2["Answer 2"]
     P -->|weighted roll| A3["Answer 3"]

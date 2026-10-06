@@ -27,7 +27,7 @@ Here's the analogy. A restaurant has a menu and a kitchen window. The menu is th
 You never see the kitchen. The restaurant can change its cooks, stove and suppliers, and as long as the dish matches the menu you're none the wiser. Order something off the menu and you get a polite no, which beats a surprise.
 
 ```mermaid
-flowchart LR
+flowchart TD
     On["Request on the menu"] -->|contract shape| OK["Predictable answer + status 200"]
     Off["Request off the menu"] -->|polite refusal| Code["Clear status code"]
     K["The contract"] -.->|is why| Big["One program asks 3,000 boards nightly"]

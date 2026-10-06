@@ -30,7 +30,7 @@ The board fills as discussion goes on. Once full, adding something means wiping 
 > The model does not forget the way you forget a name. Wiped material is gone from its world, with no trace.
 
 ```mermaid
-flowchart LR
+flowchart TD
     I["Instructions"] -->|assembled into| W["One context window (fixed size)"]
     H["Conversation so far"] -->|assembled into| W
     P["Pasted documents"] -->|assembled into| W
