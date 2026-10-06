@@ -39,3 +39,13 @@ Read the questions. Notice how few of them are technical: who counts stock, when
 Across the program you will do all four jobs in every project: interview the problem, build the system, verify it against a measure you wrote down before you started, and present it in plain words. Your mentor skill will push you toward the verifying and presenting parts, because those are where most beginners stop early. Employers hiring for this role mostly cannot see your code at a glance, but they can read a clear account of a problem you understood and a result they can check.
 
 When a mission feels like it has less coding than you expected, that is intended. The code is how you earn the right to the other three parts.
+
+## Check yourself
+
+You show a client a flawless working tool and they say, politely, that it solves the wrong problem. Of the four FDE jobs (interview the problem, build, verify, present), which one most likely got skipped?
+
+<details><summary>Decide on your answer, then open</summary>
+
+Interviewing the problem. A tool can be built and verified perfectly and still point at the wrong target, which is the bridge in the wrong place. Only someone who walked the riverbank, meaning sat with the problem first, would have caught it.
+
+</details>

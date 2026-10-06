@@ -31,6 +31,10 @@ again. Early rolls matter more than they appear to: once one chunk is
 chosen, every later prediction builds on it, so a different early roll
 sends the whole answer down a different road.
 
+```interactive
+widget: sampling
+```
+
 Many tools expose a setting called temperature, which controls how
 much the die is loaded. Low temperature squeezes the odds toward the
 favourite, so answers become steadier and more repetitive. High
@@ -95,3 +99,13 @@ line for stability: if I run this ten times, how many answers will match?
 You'll also meet the run-twice check as an explicit gate in later
 missions. Treat the first correct answer as a hypothesis. The pattern
 across ten runs is the finding.
+
+## Check yourself
+
+You run your pipeline twice and find duplicate rows. The model's answers were identical both times, and you had set temperature to its lowest. Is sampling the culprit, yes or no? What is?
+
+<details><summary>Decide on your answer, then open</summary>
+
+No. Identical answers rule the dice out, and the duplicates came from our own code writing the same record again. A rerun can go wrong two ways, repeated code or a different model answer, so you check the database before and after a second run and after a mid-run kill.
+
+</details>

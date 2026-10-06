@@ -20,6 +20,19 @@ Here's the analogy. A pen pal and a house-sitter can both receive your instructi
 
 That key is why agents deserve a different kind of care. A wrong chatbot answer costs a reader a moment of being misled, and the reader can check. A wrong agent action has already happened by the time anyone looks. Everything in the rest of this cluster, budgets, approval gates, safe reruns, is about the question that only exists once you hand over the key: what is this thing allowed to do when nobody is watching?
 
+```mermaid
+flowchart TD
+    G["Goal"] --> D["Model decides"]
+    D -->|writes tool request| Prog["Your program"]
+    Prog -->|runs the tool| Res["Result"]
+    Res -->|fed back| D
+    D -->|goal met| S["Stop"]
+```
+
+```interactive
+widget: agent-loop
+```
+
 ## This happened to us
 
 This one is also the first mission you'll build, so it's worth telling from the builder's side. Our job-watch agent, the pattern behind your warm-up mission, works on our job board. It reads the live board through a tool, decides which postings matter for what it's watching, and acts on that decision.
@@ -41,3 +54,13 @@ Paste something like "search_jobs('data') returned: Data Analyst (onsite), Data 
 ## What this means when you build
 
 Your warm-up mission is an agent with one tool and a clear goal, and the whole point is to watch the loop run. Before you build, write down what you expect each step of the loop to be, and which action in it could do harm if the agent got it wrong. That list, the actions with consequences, drives every safety decision in the projects that follow.
+
+## Check yourself
+
+Our job-watch agent reads the live board through a tool. If that tool returns a stale listing, what does the agent do with it, and what does that tell you about where to put your verification effort?
+
+<details><summary>Decide on your answer, then open</summary>
+
+The agent acts on the stale listing as if it were true, and every later decision in the loop inherits the mistake, because the model only knows what the tool tells it. So verification belongs on what the tool returns, not only on what the model decides.
+
+</details>

@@ -52,6 +52,21 @@ and a window stuffed with loosely related text gives the model more places
 to wander. A short, well-chosen window usually beats a long, careless one,
 and costs less.
 
+```mermaid
+flowchart LR
+    I["Instructions"] -->|assembled into| W["One context window (fixed size)"]
+    H["Conversation so far"] -->|assembled into| W
+    P["Pasted documents"] -->|assembled into| W
+    T["Tool results"] -->|assembled into| W
+    W -->|read in full| M["Model"]
+    M -->|writes| R["Reply"]
+    R -->|also fills| W
+```
+
+```interactive
+widget: context-window
+```
+
 ## This happened to us
 
 Our enrichment step reads a job posting and fills in structured fields:
@@ -100,3 +115,13 @@ important quietly stops being in front of the model, and the symptom will
 look like a model that got dumber. Before blaming the model, check what
 was on the board. You'll also learn to decide, deliberately, what gets
 written there first.
+
+## Check yourself
+
+A job posting is too long for the small model's window, and you can either cut it off where the window runs out or keep the parts that carry the most information. Which do you pick, and what goes wrong with the other?
+
+<details><summary>Decide on your answer, then open</summary>
+
+Keep the most informative parts and let the filler fall away. Cutting at the limit keeps whatever came first, which is not what matters most, and the model never signals that it received half a posting, because a truncated input looks complete from the inside.
+
+</details>

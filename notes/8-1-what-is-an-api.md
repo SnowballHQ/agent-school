@@ -92,3 +92,13 @@ Before you wire anything up, do what professionals do and read the menu.
 Find the endpoint, the fields it promises, and the status codes it can
 return. Then write down one thing the menu does not promise, because that
 gap is where your first surprise will come from.
+
+## Check yourself
+
+If a person had to check each of the 3,000 job boards by hand at five minutes a board, how long would one nightly pass take, and what makes the program able to do it instead?
+
+<details><summary>Decide on your answer, then open</summary>
+
+About 250 hours, which is more than ten days of nonstop work for a single pass. The program manages it because every board publishes its answers in a predictable shape, so no one has to squint at each one. That shared contract is the whole asset.
+
+</details>

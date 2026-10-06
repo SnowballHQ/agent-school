@@ -28,6 +28,10 @@ with two differences. The meter runs in both directions, on what you send
 and what comes back. And the meter is invisible unless you go looking for
 it.
 
+```interactive
+widget: tokens
+```
+
 That second difference is where the trouble lives.
 
 ## This happened to us
@@ -79,3 +83,13 @@ things like our fifty-second job.
 By Project 2 you'll be reporting cost per document next to accuracy, as
 one number employers can check. Treat tokens the way the telegram writers
 treated words, and that number will be one you're glad to publish.
+
+## Check yourself
+
+Suppose the classifier from the war story runs on 3,000 jobs a night, each burning about 5,000 hidden reasoning tokens. How many tokens are billed each night for reasoning nobody reads?
+
+<details><summary>Decide on your answer, then open</summary>
+
+About 15 million (3,000 x 5,000), all of it billed, for answers that were a single word. Turning the hidden reasoning off cut cost and time roughly tenfold with no change in the answers, which is why you look at the meter before the bill arrives.
+
+</details>

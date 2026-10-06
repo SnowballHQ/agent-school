@@ -42,3 +42,13 @@ Look at the tricky ones: "I don't want a refund, I want it fixed," or "refunds p
 In Project 1 you will be asked, before you build anything, to write down what you expect the system to do on real data and then compare it with what it did. Do the count first. Before any step that costs money or touches people, run the cheap version that only counts, and ask whether the number is the one you predicted. If it is off by a lot, the surprise has been moved to a moment when it costs almost nothing.
 
 Plan to be surprised. The only choice you get is how expensive the surprise is.
+
+## Check yourself
+
+Your escalation rule was meant to send 151 postings for a second, expensive look. A dry run says it would send 8,021. Roughly how many times over budget would you have been, and what did catching it cost?
+
+<details><summary>Decide on your answer, then open</summary>
+
+About fifty-three times over, which matches the note's "roughly fifty times more rows than we intended." Catching it cost the price of reading one number from a count-only run. Launching on the strength of how the rule looked would have meant finding out from the bill.
+
+</details>

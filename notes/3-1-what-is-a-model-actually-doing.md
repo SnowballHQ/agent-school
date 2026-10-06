@@ -53,6 +53,14 @@ So the model is genuinely useful and genuinely unreliable at once, and
 good engineering is mostly about arranging things so the first quality
 gets used and the second never gets the chance to hurt anyone.
 
+```mermaid
+flowchart LR
+    A["Text so far"] -->|score every possible next chunk| B["Probabilities"]
+    B -->|weighted pick| C["Next chunk"]
+    C -->|append| A
+    A -->|stop signal| E["Answer"]
+```
+
 ## This happened to us
 
 Our job board sorts thousands of postings into categories: what kind of
@@ -98,3 +106,13 @@ are guesses and supplied facts are material to work from. Second, where
 you can, ask it to choose from options you wrote instead of composing from
 scratch. A pick from a list has a checkable answer. A free-form paragraph
 has only a plausible one.
+
+## Check yourself
+
+In the cheapest step of our job board pipeline, why do we make the model pick from a list we wrote instead of letting it answer in its own words?
+
+<details><summary>Decide on your answer, then open</summary>
+
+Left to answer freely, the model keeps producing fluent, reasonable text, and reasonable text finds new ways to say things, so our labels multiplied and matched nothing else in the database. A pick from a fixed list removes the part of the loop where fluency causes damage and keeps the part where the model is good: judging which option fits a messy posting.
+
+</details>
