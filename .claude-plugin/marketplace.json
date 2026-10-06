@@ -1,0 +1,6 @@
+{
+  "name": "deployed-academy",
+  "owner": {"name": "Deployed (Stak)"},
+  "description": "Free starter for the Agent Engineering Program: the foundations field notes and the warm-up mission.",
+  "plugins": [{"name": "deployed-academy", "source": "./"}]
+}

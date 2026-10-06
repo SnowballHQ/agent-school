@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deployed-jobs": {
+      "type": "http",
+      "url": "https://deployed.so/mcp"
+    }
+  }
+}
