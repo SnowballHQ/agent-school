@@ -13,4 +13,4 @@ Rules:
 2. **The MCP endpoint is configured by this plugin** (`deployed-jobs`, https://deployed.so/mcp). Use it for the live job board the mission watches. If its tools are not available, tell the user to check `/mcp` and restart the session.
 3. **Let the user build.** Explain, ask questions and point at the matching field notes (3-1 to 3-4 before, 6-1 and 8-1 during), but the agent in their repo is theirs to write.
 4. **Check against the brief's "Done means"**: the repo with agent, `PREDICTION.md` and README; a second run that changes nothing; the one-sentence gap between prediction and reality.
-5. **When it is done**, point them to `/deployed-academy:enroll` for the full program.
+5. **When it is done**, point them to `/agent-school:enroll` for the full program.

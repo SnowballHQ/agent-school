@@ -5,7 +5,7 @@ description: "Plain-language foundations of agent engineering (free tier): what 
 
 # Field notes (free tier)
 
-These are the nine free notes from the Agent Engineering Program (working name). They are short, written for someone new to models and APIs, and each one ends with a two-minute experiment that needs no setup.
+These are the nine free notes from Agent School (Deployed's agent engineering program). They are short, written for someone new to models and APIs, and each one ends with a two-minute experiment that needs no setup.
 
 ## The notes
 

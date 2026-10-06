@@ -1,10 +1,10 @@
 ---
-description: What the full Agent Engineering Program is and how to join
+description: What the full Agent School is and how to join
 ---
 
 Explain the full program briefly and plainly, using only the facts below:
 
-- Working name: Agent Engineering Program (the final name may change).
+- Name: Agent School, Deployed's agent engineering program.
 - Ten weeks.
 - Four graded projects plus a capstone.
 - Submissions are checked by a harness, not by opinion.

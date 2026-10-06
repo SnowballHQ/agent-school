@@ -1,14 +1,14 @@
-# Deployed Academy (free starter)
+# Agent School (free starter)
 
-Working name: **Agent Engineering Program**. The final name may change.
+**Agent School** — Deployed's agent engineering program.
 
 This plugin is the free starter for the program: nine foundations field notes and the warm-up mission, packaged for Claude Code so the notes can be read, explained and quizzed inside your own project.
 
 ## Install
 
 ```
-claude plugin marketplace add SnowballHQ/deployed-academy
-claude plugin install deployed-academy@deployed-academy
+claude plugin marketplace add SnowballHQ/agent-school
+claude plugin install agent-school@agent-school
 ```
 
 ## What is inside
@@ -21,9 +21,9 @@ claude plugin install deployed-academy@deployed-academy
 
 ## Commands
 
-- `/deployed-academy:notes`: list the notes and pick one.
-- `/deployed-academy:mission`: start or resume the warm-up mission.
-- `/deployed-academy:enroll`: what the full program is and how to join.
+- `/agent-school:notes`: list the notes and pick one.
+- `/agent-school:mission`: start or resume the warm-up mission.
+- `/agent-school:enroll`: what the full program is and how to join.
 
 ## The full program
 

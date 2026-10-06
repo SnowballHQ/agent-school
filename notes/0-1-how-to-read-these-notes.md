@@ -10,7 +10,7 @@ minutes: 4
 mission: "Week 0"
 ---
 
-These notes are the ideas behind the Agent Engineering Program, written for someone who has never used a model, never called an API, and has no reason to feel behind. Each one answers a single question you might actually ask, in about ten minutes of reading. There are forty-two of them, grouped into eleven clusters, from what an AI model is doing when it answers you, to how you present a finished system to someone who will never read your code.
+These notes are the ideas behind Agent School, Deployed's agent engineering program, written for someone who has never used a model, never called an API, and has no reason to feel behind. Each one answers a single question you might actually ask, in about ten minutes of reading. There are forty-two of them, grouped into eleven clusters, from what an AI model is doing when it answers you, to how you present a finished system to someone who will never read your code.
 
 ## Two ways through
 
