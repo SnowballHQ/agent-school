@@ -6,25 +6,47 @@ order: 2
 title: "Why does the demo always work and production always surprise you?"
 teaser: "A demo runs on the data you chose. Production runs on all of it, and all of it includes the rows you never looked at."
 access: free
-minutes: 10
+minutes: 5
 mission: "Week 0"
 ---
 
-Every AI demo works, and the reason is selection. The person building a demo picks a handful of examples, tries them, tweaks the instructions until they behave, and shows you the ones that came out well. Nothing dishonest happened. But the examples were chosen by someone who already knew roughly what would work, so they tell you very little about what happens on the thousand examples nobody chose.
+**The idea in one line:** a demo runs on examples you picked; production runs on everything, so count on real data before it matters.
 
-Production is the opposite situation. The system runs on everything that arrives: the malformed entries, the odd formats, the cases at the edges of your rule, the ones you did not think of because you never saw them. Two words help here. The **sample** is the small set you looked at. The **population** is everything the system will eventually meet. A demo describes the sample. Production lives in the population, and the gap between them is where surprises are stored.
+Every AI demo works, and the reason is selection. The builder picks a few examples, tweaks the instructions until they behave, and shows the ones that came out well.
 
-You cannot remove the gap by being careful or clever. You can only measure it, which means running your system on real data before it matters and counting what happens.
+Nothing dishonest happened. But the examples were chosen by someone who already knew roughly what would work. They say very little about the thousand examples nobody chose.
 
-Here is the analogy. Passing a driving test in an empty car park proves you can steer. It says almost nothing about rush hour in a city you have never visited, with buses, cyclists, and a delivery van stopped in the road. Nobody would let you drive for a living on the car park result alone. Yet that is exactly how many AI systems get approved.
+Two words help here:
 
-## This happened to us
+- The **sample** is the small set you looked at.
+- The **population** is everything the system will eventually meet: malformed entries, odd formats, edge cases you never saw.
 
-Our pipeline classifies job postings, and for some of them it sends the job for a second, more expensive look: a bigger model reads it more carefully. We wrote an escalation rule to pick out only the postings that deserved that extra attention. On paper the rule read sensibly. We expected it to select a small, specific slice.
+A demo describes the sample. Production lives in the population.
 
-Before running it for real, we ran a dry run: ask the rule how many rows it would send, without sending any. The count came back at 8,021. Only 151 of those actually qualified. The rest were jobs located in India that the rule was supposed to ignore and did not, because of how it treated their location data. The rule matched roughly fifty times more rows than we intended.
+You cannot close the gap by being careful or clever. You can only measure it, by running your system on real data before it matters and counting what happens.
 
-Nothing went wrong in the end, and that is the point. Because the check ran against the real data before any spend, we caught it for the price of reading one number. Had we launched on the strength of how the rule looked, the first signal would have been the bill for the second look on thousands of rows that never needed it. We got lucky in one respect: we checked. The rule would have looked just as sensible on the day we ran it and been just as wrong.
+Here is the analogy. Passing a driving test in an empty car park proves you can steer. It says almost nothing about rush hour in a city you have never visited, with buses, cyclists, and a delivery van stopped in the road.
+
+> The gap between sample and population is where surprises are stored. You only choose how expensive they are.
+
+```mermaid
+flowchart LR
+    D["Friendly sample (demo)"] -->|always| W["Works"]
+    P["All real inputs (production)"] -->|hides| S["Surprises"]
+    C["Count first on real data"] -->|moves the surprise to| M["A cheap moment"]
+```
+
+## Real-world example: the rule that matched 8,021 rows
+
+Our pipeline classifies job postings. For some, it sends the job for a second, more expensive look, where a bigger model reads it more carefully. We wrote an escalation rule to pick only the postings that deserved it. On paper it read sensibly.
+
+Before running it for real, we did a **dry run**: ask the rule how many rows it would send, without sending any. The count came back at 8,021. Only 151 actually qualified.
+
+The rest were jobs located in India that the rule was supposed to ignore. It matched them because of how it treated their location data. That is roughly fifty times more rows than we intended.
+
+Nothing went wrong in the end, because the check ran against real data before any spend. We caught it for the price of reading one number.
+
+Had we launched on how the rule looked, the first signal would have been a bill for thousands of needless second looks. The rule looked just as sensible on the day we ran it, and was just as wrong.
 
 ## See it yourself (2 minutes)
 
@@ -35,13 +57,17 @@ Open any AI chat and paste this:
 > and tell me which the rule would flag. Then tell me which flags would be
 > wrong and which real refund requests it would miss.
 
-Look at the tricky ones: "I don't want a refund, I want it fixed," or "refunds policy link broken." A rule that sounded complete in one sentence leaks in both directions the moment real-looking text touches it. You have just built a very small production test.
+Look at the tricky ones: "I don't want a refund, I want it fixed," or "refunds policy link broken."
+
+A rule that sounded complete in one sentence leaks in both directions the moment real-looking text touches it. You just built a very small production test.
 
 ## What this means when you build
 
-In Project 1 you will be asked, before you build anything, to write down what you expect the system to do on real data and then compare it with what it did. Do the count first. Before any step that costs money or touches people, run the cheap version that only counts, and ask whether the number is the one you predicted. If it is off by a lot, the surprise has been moved to a moment when it costs almost nothing.
+In Project 1, before you build anything, you write down what you expect the system to do on real data, then compare it with what it did.
 
-Plan to be surprised. The only choice you get is how expensive the surprise is.
+- Do the count first. Before any step that costs money or touches people, run the cheap version that only counts.
+- Ask whether the number is the one you predicted.
+- If it is off by a lot, the surprise has moved to a moment when it costs almost nothing.
 
 ## Check yourself
 
