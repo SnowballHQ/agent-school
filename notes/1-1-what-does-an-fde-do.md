@@ -16,13 +16,32 @@ That last part is what makes the role strange. In most software companies, work 
 
 Here is the analogy. Picture an engineer who builds a bridge, and who also walked the riverbank for a week beforehand, asked the villagers where they cross when the water is high, drove the first truck over on opening day, and then stood in front of the town council to say whether it was safe. Nobody doubts the engineering matters. But a perfectly built bridge in the wrong place is still a useless bridge, and only the person who walked the riverbank would have known.
 
+```mermaid
+flowchart LR
+    W["Walk the riverbank (discover)"] -->|becomes a brief| B["Build the bridge"]
+    B -->|is proven by| T["Drive the first truck (verify)"]
+    T -->|is explained at| C["The town council (present)"]
+    C -->|sends you back to| W
+    P["One person, four jobs"] -.->|the FDE shape| W
+```
+
 ## This happened to us
 
-We built Deployed, our own job board for remote roles, with exactly this shape. The same people who sat with the problem, working out what someone looking for remote work needs from a job board and where existing ones fall short, were the people who built the pipeline that collects and cleans the listings. The same people then verified it, checking the output against reality instead of trusting it. And the same people presented it, explaining what the board does and what it does not.
+Deployed, the job board this course runs on, was built in exactly this shape. One small feature shows the whole loop.
 
-The honest cost of this is that we had nobody to hand a mistake to. When a number looked wrong, there was no upstream team to blame and no downstream team to catch it, so the person who built the thing was also the person who had to doubt it. That is slower in the first week. It is also why the misunderstandings that usually surface months into a project, when someone finally sees the finished product, tended to surface while we were still holding the pen.
+Here is a real posting: "Senior Backend Engineer. Remote." Sounds open to the world. Read to the bottom and a quiet line says the company can only employ people in one country. A job seeker in Pune finds that line after an hour of writing the application, or worse, never hears back and never learns why.
 
-We would not claim the code was the hard part. The part that mattered was understanding the problem well enough that the code had a chance of pointing the right way.
+**The riverbank walk.** Sitting with job seekers' actual question taught us it was never "what jobs exist?" They carry a sharper one: "can I, from where I sit, actually get this job?" No board we found answered it.
+
+**The bridge.** So that question became a field a database can hold: who can apply, and from where. A pipeline now reads thousands of postings every night and fills that field in, posting by posting.
+
+**The first truck over.** The same people then pulled up rows and read the original posting beside the pipeline's answer, by hand, fifty at a time. A pipeline that is quietly wrong is worse than no pipeline, because it answers the seeker's question with false confidence.
+
+**The town council.** And the same people presented it: a filter on the site a seeker can click, and page copy where every count renders from the live database, because a hand-typed number is a promise nobody is checking.
+
+One loop, one pair of shoes, four jobs. The cost was real: when a number looked wrong, there was no upstream team to blame and no downstream team to catch it. The builder had to be the doubter. That is slower in week one. It is also why the misunderstandings that normally surface months later, when someone finally sees the finished product, surfaced while they were still cheap to fix.
+
+The code was never the hard part. The hard part was understanding one reader's question well enough that the code had a chance of answering it.
 
 ## See it yourself (2 minutes)
 
