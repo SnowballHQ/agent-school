@@ -1,0 +1,18 @@
+== search_jobs
+Search live remote jobs of any kind -- not only engineering roles (sales, design, support, operations, AI training and more). ASK THE USER FIRST where they live (country and timezone) and which
+skills/seniority they want. Set geo='india_ok' only when the user is in India; otherwise pass their
+ISO country code (e.g. 'US') or 'worldwide'. Results are compact (no descriptions): call get_job with
+a result's `slug` for the full posting. Each result shows its `function` (and `engagement`: gig = short task-based work, not an ongoing role). Page with `next_cursor`. Closed jobs never appear here.
+By default only remote roles and roles open to workers in India are returned (scope='remote_india'), so
+onsite/hybrid roles outside India are hidden; pass scope='all' only if the user asks for onsite or hybrid roles.
+
+== get_job
+Full posting: Markdown description, apply URL, eligibility and company. If `is_live` is false the
+job is closed -- tell the user instead of sending them to apply.
+
+== search_companies
+Find companies that post remote jobs, most open roles first.
+
+== get_company
+Company details plus its live jobs (compact).
+

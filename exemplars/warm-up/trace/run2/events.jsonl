@@ -1,0 +1,2 @@
+{"ts": "2026-10-10T13:36:11+00:00", "event": "tool", "tool_name": "mcp__deployed__search_jobs", "input": {"role_family": ["ml_ai"], "seniority": ["senior"], "geo": "india_ok", "sort": "newest", "limit": 50}}
+{"ts": "2026-10-10T13:36:12+00:00", "event": "tool", "tool_name": "mcp__deployed__search_jobs", "input": {"role_family": ["ml_ai"], "seniority": ["senior"], "geo": "india_ok", "sort": "newest", "limit": 50, "cursor": "eyJzIjoibmV3ZXN0IiwiayI6WyIyMDI2LTA5LTEwVDAwOjAwOjAwKzAwOjAwIiwyNDQ5MV0sInQiOjEwMH0"}}

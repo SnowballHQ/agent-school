@@ -1,0 +1,504 @@
+{
+  "seen": {
+    "ai-and-machine-learning-engineer-85d6c8c8": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI and Machine Learning Engineer"
+    },
+    "ai-architect-modern-ai-applications-dbb9c8c8": {
+      "company": "HealthCare",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Architect - Modern AI Applications"
+    },
+    "ai-data-scientist-otds-manager-individual-contributor-fe6b9da4": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Data Scientist, OTDS – Manager (Individual Contributor)"
+    },
+    "ai-engineer-b35dc4b6": {
+      "company": "Barclays",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Engineer"
+    },
+    "ai-engineer-e1e6f5f7": {
+      "company": "Barclays",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Engineer"
+    },
+    "ai-engineering-solutions-architect-92391208": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Engineering - Solutions Architect"
+    },
+    "ai-ml-dev-chatbots-65083-0e89b1b6": {
+      "company": "Hitachi",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI/ML Dev - Chatbots-65083"
+    },
+    "ai-ml-engineer-3f9c3431": {
+      "company": "HealthCare",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI/ML Engineer"
+    },
+    "ai-ml-engineer-4fb42a98": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI / ML Engineer"
+    },
+    "ai-ml-engineer-a52690b8": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI / ML Engineer"
+    },
+    "ai-ml-engineer-s-61060-fbcea865": {
+      "company": "Hitachi",
+      "first_seen": "2026-10-10T13:37:10+00:00",
+      "title": "AI/ML Engineer(s)-61060"
+    },
+    "ai-ml-prompt-engineer-llm-rag-voice-agent-37f7d2e1": {
+      "company": "QuantumLoopAI",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI/ML & Prompt Engineer LLM, RAG & Voice Agent"
+    },
+    "ai-ml-solution-architect-b7adee81": {
+      "company": "Jobgether",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI/ML Solution Architect"
+    },
+    "ai-operations-engineer-65bd50d4": {
+      "company": "Cisco",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Operations Engineer"
+    },
+    "ai-operations-engineer-c34ead77": {
+      "company": "Cisco",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AI Operations Engineer"
+    },
+    "avpi-senior-gen-ai-engineer-a9bc797f": {
+      "company": "Revantage",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AVPI-Senior Gen AI Engineer"
+    },
+    "aws-trainium-nki-trn-ai-task-auditor-freelance-ai-trainer-project-20f76aa8": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "AWS Trainium/NKI (TRN) AI Task Auditor - Freelance AI Trainer Project"
+    },
+    "bioinformatics-ai-engineer-826dada2": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Bioinformatics & AI Engineer"
+    },
+    "c-coding-specialist-freelance-ai-trainer-project-4be5ff60": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "C# Coding Specialist - Freelance AI Trainer Project"
+    },
+    "claude-ai-engineer-technical-mentor-independent-contractor-us-canada-e-fd711dc4": {
+      "company": "Udacity",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Claude AI Engineer Technical Mentor - Independent Contractor (US Canada, Europe, MENA, India & APAC Timezones)"
+    },
+    "coding-specialist-fluent-in-bengali-freelance-ai-trainer-project-1468da96": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Bengali) - Freelance AI Trainer Project"
+    },
+    "coding-specialist-fluent-in-chinese-freelance-ai-trainer-project-279d2a4d": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Chinese) - Freelance AI Trainer Project"
+    },
+    "coding-specialist-fluent-in-japanese-freelance-ai-trainer-project-201d64d5": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Japanese) - Freelance AI Trainer Project"
+    },
+    "coding-specialist-fluent-in-marathi-freelance-ai-trainer-project-4660d0c5": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Marathi) - Freelance AI Trainer Project"
+    },
+    "coding-specialist-fluent-in-swedish-freelance-ai-trainer-project-52da8357": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Swedish) - Freelance AI Trainer Project"
+    },
+    "coding-specialist-fluent-in-telugu-freelance-ai-trainer-project-6b67d216": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Coding Specialist (Fluent in Telugu) - Freelance AI Trainer Project"
+    },
+    "consultant-sr-consultant-ai-engineer-inai-5eff9b7b": {
+      "company": "Blue Altair",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Consultant/Sr. Consultant - AI Engineer (INAI)"
+    },
+    "custom-software-engineer-41d2370d": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Custom Software Engineer"
+    },
+    "custom-software-engineer-5a10ad85": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Custom Software Engineer"
+    },
+    "custom-software-engineer-7997cc0f": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Custom Software Engineer"
+    },
+    "custom-software-engineer-8ce3d5e8": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Custom Software Engineer"
+    },
+    "custom-software-engineer-cc34b4e5": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Custom Software Engineer"
+    },
+    "data-scientist-4e2cbde4": {
+      "company": "Thales",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Data Scientist"
+    },
+    "data-scientist-data-engineer-097b2ee4": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Data Scientist / Data Engineer"
+    },
+    "data-scientist-ii-4a13da12": {
+      "company": "Netomi",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Data Scientist - II"
+    },
+    "data-scientist-specialist-592cc305": {
+      "company": "Vanguard",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Data Scientist, Specialist"
+    },
+    "firstprinciples-research-fellow-0ededd9f": {
+      "company": "FirstPrinciples",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "FirstPrinciples Research Fellow"
+    },
+    "generative-ai-architect-63324-b08a0127": {
+      "company": "Hitachi",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Generative AI Architect-63324"
+    },
+    "gpu-kernels-ai-task-auditor-freelance-ai-trainer-project-1903f79d": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "GPU Kernels AI Task Auditor - Freelance AI Trainer Project"
+    },
+    "ind-lead-software-engineer-738b2ef5": {
+      "company": "The Hartford",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "IND Lead Software Engineer"
+    },
+    "ind-staff-software-engineer-7fd8063f": {
+      "company": "The Hartford",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "IND Staff Software Engineer"
+    },
+    "java-coding-specialist-freelance-ai-trainer-project-effe9391": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Java Coding Specialist - Freelance AI Trainer Project"
+    },
+    "javascript-coding-specialist-freelance-ai-trainer-project-efd0f915": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "JavaScript Coding Specialist - Freelance AI Trainer Project"
+    },
+    "kotlin-coding-specialist-freelance-ai-trainer-project-d838a4cd": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Kotlin Coding Specialist - Freelance AI Trainer Project"
+    },
+    "large-language-model-architect-2423ab68": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Large Language Model Architect"
+    },
+    "large-language-model-architect-53847de4": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Large Language Model Architect"
+    },
+    "large-language-model-architect-6bf36afb": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Large Language Model Architect"
+    },
+    "lead-agentic-ai-engineer-2-a4b498d6": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Lead Agentic AI Engineer 2"
+    },
+    "lead-agentic-ai-engineer-80ec4afb": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Lead Agentic AI Engineer"
+    },
+    "machine-learning-engineer-c77692bd": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Machine Learning Engineer"
+    },
+    "machine-learning-ml-ai-task-auditor-freelance-ai-trainer-project-99f016d7": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Machine Learning (ML) AI Task Auditor - Freelance AI Trainer Project"
+    },
+    "networking-aruba-solution-architect-ai-ml-4057c127": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Networking (Aruba) Solution Architect - AI/ML"
+    },
+    "python-coding-specialist-freelance-ai-trainer-project-013f6e97": {
+      "company": "Agency",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Python Coding Specialist - Freelance AI Trainer Project"
+    },
+    "qa-market-risk-6a29284b": {
+      "company": "Barclays",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "QA-Market Risk"
+    },
+    "responsible-ai-tech-lead-1ec4010e": {
+      "company": "Accenture",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Responsible AI Tech Lead"
+    },
+    "senior-agentic-ai-developer-e7cf9372": {
+      "company": "Coretek Services",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Agentic AI Developer"
+    },
+    "senior-ai-data-engineer-1c6b9ded": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI & Data Engineer"
+    },
+    "senior-ai-data-science-engineer-80b436d6": {
+      "company": "Medtronic",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI/Data Science Engineer"
+    },
+    "senior-ai-engineer-16edd10e": {
+      "company": "Danaher",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer"
+    },
+    "senior-ai-engineer-450b6991": {
+      "company": "Jobgether",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer"
+    },
+    "senior-ai-engineer-ai-engineering-38ee599b": {
+      "company": "Mastercard",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer, AI Engineering"
+    },
+    "senior-ai-engineer-ai-lead-52e27366": {
+      "company": "Parexel",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer/AI Lead"
+    },
+    "senior-ai-engineer-ai-lead-bb59864d": {
+      "company": "Parexel",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer/AI Lead"
+    },
+    "senior-ai-engineer-b9276ac3": {
+      "company": "FourKites",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer"
+    },
+    "senior-ai-engineer-genai-ai-platform-voice-ai-e3cb72c9": {
+      "company": "Mavenir",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer - GenAI, AI Platform & Voice AI"
+    },
+    "senior-ai-engineer-legal-usa-remote-b3b45b5f": {
+      "company": "Danaher",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Engineer, Legal - USA Remote"
+    },
+    "senior-ai-ml-engineer-5f8424bd": {
+      "company": "HealthCare",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI ML Engineer"
+    },
+    "senior-ai-research-engineer-9522a58e": {
+      "company": "Emergent",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior AI Research Engineer"
+    },
+    "senior-applied-ai-engineer-d90bbd7a": {
+      "company": "Celonis",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Applied AI Engineer"
+    },
+    "senior-applied-ml-engineer-evals-data-9190e272": {
+      "company": "Cardboard",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Applied ML Engineer, Evals & Data"
+    },
+    "senior-associate-agents-chatbots-ic-d94dd45e": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Associate, Agents/Chatbots IC"
+    },
+    "senior-cv-engineer-bb559269": {
+      "company": "Social Discovery Group",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior CV Engineer"
+    },
+    "senior-data-scientist-protein-structure-ml-models-917a5ef4": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Data Scientist - Protein Structure ML models"
+    },
+    "senior-machine-learning-engineer-0c76b836": {
+      "company": "Coinbase",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer"
+    },
+    "senior-machine-learning-engineer-4d5ff516": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer"
+    },
+    "senior-machine-learning-engineer-ad-tech-engineering-17d5d122": {
+      "company": "Roku",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer, Ad Tech Engineering"
+    },
+    "senior-machine-learning-engineer-content-platform-8374e9aa": {
+      "company": "Roku",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer, Content Platform"
+    },
+    "senior-machine-learning-engineer-e36ef19b": {
+      "company": "HackerRank Careers",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer"
+    },
+    "senior-machine-learning-engineer-search-quality-435140ad": {
+      "company": "Constructor",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Machine Learning Engineer: Search Quality"
+    },
+    "senior-member-of-technical-staff-machine-learning-3c74e966": {
+      "company": "athenahealth",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Member of Technical Staff- Machine Learning"
+    },
+    "senior-member-of-technical-staff-machine-learning-664f6350": {
+      "company": "athenahealth",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Member Of Technical Staff- Machine Learning"
+    },
+    "senior-member-of-technical-staff-machine-learning-996cc8b4": {
+      "company": "athenahealth",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Member of Technical Staff- Machine Learning"
+    },
+    "senior-software-engineer-ai-5561e418": {
+      "company": "The Hartford",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Software Engineer/AI"
+    },
+    "senior-software-engineer-ai-i-e3de9676": {
+      "company": "Thomson Reuters",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Senior Software Engineer - AI I"
+    },
+    "software-engineer-agentic-ai-developer-6-yrs-exp-6a86647f": {
+      "company": "Cisco",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Software Engineer- Agentic AI Developer- 6+yrs exp"
+    },
+    "software-engineer-iii-b21ff3f8": {
+      "company": "MRI Software",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Software Engineer III"
+    },
+    "solution-architect-892c533a": {
+      "company": "Hitachi",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Solution Architect"
+    },
+    "sr-associate-data-scientist-5af3c4e6": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr Associate Data Scientist"
+    },
+    "sr-associate-machine-learning-engineer-6fee2eaf": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr. Associate - Machine Learning Engineer"
+    },
+    "sr-audio-dsp-machine-learning-engineer-7f845134": {
+      "company": "Logitech",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr. Audio DSP Machine Learning Engineer"
+    },
+    "sr-consultant-ai-automation-12fbdac4": {
+      "company": "Jobgether",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr Consultant- AI & Automation"
+    },
+    "sr-data-scientist-ai-applications-engineer-a32ff942": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr Data Scientist/AI Applications Engineer"
+    },
+    "sr-data-scientist-data-sciences-ai-7cd112ee": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr. Data Scientist – Data Sciences & AI"
+    },
+    "sr-machine-learning-engineer-3c42c930": {
+      "company": "Amgen",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Sr Machine Learning Engineer"
+    },
+    "storage-ai-expert-d189369d": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Storage AI Expert"
+    },
+    "storage-ai-specialist-184cb5ec": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Storage AI Specialist"
+    },
+    "storage-ai-specialist-647c6069": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Storage AI Specialist"
+    },
+    "storage-ai-specialist-a0a5ca48": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Storage AI Specialist"
+    },
+    "storage-ai-specialist-ceb8b86d": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Storage AI Specialist"
+    },
+    "vice-president-ai-engineer-9eb45f12": {
+      "company": "Barclays",
+      "first_seen": "2026-10-10T13:35:53+00:00",
+      "title": "Vice President – AI Engineer"
+    }
+  }
+}

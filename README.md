@@ -14,7 +14,7 @@ claude plugin install agent-school@agent-school
 ## What is inside
 
 - `notes/`: nine short notes on what a model does, tokens, context windows, why answers differ between runs, what an agent is, and what an API is. Each ends with a two-minute experiment.
-- `missions/warm-up.md`: the warm-up mission. You build a small agent that watches a live job board and reports what is new, and you write down predictions before you build.
+- `missions/1-warmup.md`: the warm-up mission. You build a small agent that watches a live job board and reports what is new, and you write down predictions before you build.
 - `skills/field-notes`: lets Claude open and teach from the notes, and re-explain them with your project as the example.
 - `skills/warm-up-mission`: walks you through the mission and holds you to the prediction step.
 - `.mcp.json`: connects the live Deployed job board (https://deployed.so/mcp), which the warm-up mission uses.

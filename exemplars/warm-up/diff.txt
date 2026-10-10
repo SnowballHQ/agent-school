@@ -1,0 +1,19 @@
+$ diff runs/state.after-run1.json runs/state.after-run2.json
+(exit code 0; 0 means identical)
+
+$ shasum -a 256 runs/state.after-run1.json runs/state.after-run2.json
+ee1988fc28572d629cfcd5c8a9f7d31cb35cf59d6daea5accad3e26d691ed8c3  runs/state.after-run1.json
+ee1988fc28572d629cfcd5c8a9f7d31cb35cf59d6daea5accad3e26d691ed8c3  runs/state.after-run2.json
+
+$ cat runs/run2.out
+nothing new (100 postings watched, none changed)
+
+--- a third empty check, watching the memory file's modification time
+$ stat state.json  (before)
+size=19262 modified=2026-10-10T19:05:53
+nothing new (100 postings watched, none changed)
+$ stat state.json  (after)
+size=19262 modified=2026-10-10T19:05:53
+
+$ diff runs/state.after-run1.json state.json
+(exit code 0)

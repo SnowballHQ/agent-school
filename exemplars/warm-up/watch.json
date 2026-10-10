@@ -1,0 +1,12 @@
+{
+  "name": "senior-ml-india-remote",
+  "intent": "Hands-on senior machine learning or AI engineering roles. Not people management, not sales, not recruiting.",
+  "search": {
+    "role_family": ["ml_ai"],
+    "seniority": ["senior"],
+    "geo": "india_ok",
+    "sort": "newest"
+  },
+  "page_size": 50,
+  "max_pages": 4
+}

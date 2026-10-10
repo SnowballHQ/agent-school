@@ -5,7 +5,7 @@ description: "The free warm-up mission: build a job-watch agent against the live
 
 # Warm-up mission
 
-Guide the user through the free warm-up mission. The brief is `./missions/warm-up.md`: read it in full before saying anything, and follow it faithfully. Do not change its steps, its definition of done or its order.
+Guide the user through the free warm-up mission. The brief is `./missions/1-warmup.md`: read it in full before saying anything, and follow it faithfully. Do not change its steps, its definition of done or its order.
 
 Rules:
 
