@@ -5,9 +5,9 @@ cluster_title: "Stakeholder communication and solution presentation"
 order: 2
 title: "How do you present numbers people can check?"
 teaser: "The strongest number you can show is the one the reader could reproduce. Sizing your claim to your evidence is a skill."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 3"
 ---
 
 **The idea in one line:** show numbers a reader could reproduce, and claim only
@@ -80,8 +80,8 @@ ask it to narrow further.
 
 ## What this means when you build
 
-Your Capstone ends with a presentation of results, and you'll be marked on
-claim size as well as accuracy. For each number on your slides, write three
+Your Week 3 write-up and your Week 8 presentation both report results, and a sharp
+reader will judge you on claim size as well as accuracy. For each number on your slides, write three
 things beside it:
 
 - how it was measured

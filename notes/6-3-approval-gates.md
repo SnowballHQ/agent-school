@@ -5,9 +5,9 @@ cluster_title: "Agentic AI workflows and automation design"
 order: 3
 title: "What is an approval gate, and where do you put one?"
 teaser: "You can't ask a human to approve every step, and you can't let an agent do everything alone. The trick is knowing which steps cannot be taken back."
-access: program
+access: free
 minutes: 5
-mission: "Project 4"
+mission: "Week 7"
 ---
 
 **The idea in one line:** put a human approval immediately before the first step that can't be undone.
@@ -56,7 +56,7 @@ Disagree with at least one sorting choice and argue the other side. The hard cas
 
 ## What this means when you build
 
-In Project 4 you build an agent that touches the outside world, and your design review starts with its actions sorted by reversibility. Gates go in front of the irreversible ones, showing the real content to a real person. Everything else you make cheap and free to be wrong in.
+In Week 7 you build an agent that touches the outside world, and your design review starts with its actions sorted by reversibility. Gates go in front of the irreversible ones, showing the real content to a real person. Everything else you make cheap and free to be wrong in.
 
 ## Check yourself
 

@@ -5,9 +5,9 @@ cluster_title: "Agentic AI workflows and automation design"
 order: 5
 title: "Why does your agent need a harness of its own?"
 teaser: "A harness is a program whose whole job is to distrust your system. Building one is the most employable skill in this course."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 2"
 ---
 
 **The idea in one line:** a harness is all your distrust collected into one program that attacks your system on demand.
@@ -63,7 +63,7 @@ Read the last column first. The gap between "caught by the harness" and "found i
 
 ## What this means when you build
 
-From Project 2 onward, your deliverable is a pipeline and its harness, shipped together. The evals, rerun check, budget assertions and guard tests live in your repo and run in **CI** (continuous integration: a service that reruns your checks on every change you push), so anyone who doubts your numbers can run your distrust themselves. In the capstone, our harness consumes your published agent cold while yours is part of what it inspects. Teams hiring for agentic work ask who built the evals. With a repo to point at, your answer is "I did."
+From Week 2 onward, your deliverable is a pipeline and its harness, shipped together. The evals, rerun check, budget assertions and guard tests live in your repo and run in **CI** (continuous integration: a service that reruns your checks on every change you push), so anyone who doubts your numbers can run your distrust themselves. By Week 8, your own harness should be able to consume your published agent cold, the way a stranger would. Teams hiring for agentic work ask who built the evals. With a repo to point at, your answer is "I did."
 
 ## Check yourself
 

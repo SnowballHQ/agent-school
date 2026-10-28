@@ -5,9 +5,9 @@ cluster_title: "APIs, data pipelines and system integration"
 order: 2
 title: "Why is real-world data always messier than the demo data?"
 teaser: "A field can be present, well-formed and wrong. Data lies in layers, and each layer needs its own check."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 5"
 ---
 
 **The idea in one line:** a field can be present, well formed and wrong. Check what it means and whether it still exists.
@@ -59,7 +59,7 @@ Hunt for a few minutes before asking for answers. Then ask: "For each column, wh
 
 ## What this means when you build
 
-Your Project 2 pipeline runs on a deliberately awkward dataset: some fields fine, some blank, some confidently wrong.
+Your Week 5 pipeline runs on a deliberately awkward dataset: some fields fine, some blank, some confidently wrong.
 
 - Before writing a prompt, write one line per column: what the field claims, what it might really mean, how you'll check.
 - Add a freshness check, because anything you keep long enough goes out of date.

@@ -13,8 +13,8 @@ mission: "Week 0"
 **The idea in one line:** forty-two short notes, two ways through them,
 and one trick: your agent can re-explain any of them.
 
-These notes are the ideas behind Agent School, Deployed's agent
-engineering program. They are written for someone who has never used a
+These notes are the ideas behind Agent School, a free course in agent
+engineering. Everything is free and you can start anywhere. They are written for someone who has never used a
 model or called an API, and has no reason to feel behind.
 
 Each note answers one question you might actually ask, in about five
@@ -26,23 +26,28 @@ to someone who will never read your code.
 
 - **Cover to cover.** The clusters are shelves, grouped by topic. Early
   shelves give you words the later ones lean on.
-- **The mission path.** As you move through the missions, your mentor
-  skill points at each note when the problem it answers shows up in your
-  own work.
+- **The mission path.** The missions are Week 0, Warm-up, Project 1 and
+  Weeks 2 to 8. Start at any of them and skip what you already know. As
+  you work, your agent (the mentor in the agent-school plugin) points at
+  each note when the problem it answers shows up in your own work;
+  `/agent-school:notes <n>` opens one on demand.
 
 Hit a surprise bill in the warm-up and the note on tokens turns up.
-Build a pipeline that fails quietly in Project 2 and the note on failing
+Build a pipeline that fails quietly in Week 5 and the note on failing
 loudly shows up. The path deliberately cuts across the shelves. It runs
 like this:
 
-- **Week 0:** 0-1 · 1-1 · 1-2 · 3-1 · 3-2 · 3-3 · 3-4
-- **Warm-up:** 6-1 · 8-1
-- **Project 1:** 1-3 · 2-1 · 2-2 · 4-1 · 4-2 · 6-2 · 7-1 · 7-2
-- **Project 2:** 4-3 · 4-4 · 6-4 · 6-5 · 7-4 · 8-2 · 9-2 · 10-1 · 10-2
-- **Project 3:** 5-1 · 5-2 · 5-3 · 5-4 · 7-3
-- **Project 4:** 2-3 · 6-3 · 7-5 · 9-1 · 9-3
-- **Capstone:** 7-6 · 8-3 · 8-4 · 10-3 · 11-2 · 11-3
-- **Every project ends with:** 11-1
+- **Week 0:** 0-1 · 1-1 · 1-2 · 3-1 · 3-2 · 3-3 · 3-4 · 8-1
+- **Warm-up:** 6-1 · 6-2 · 6-4 · 7-1 · 7-2
+- **Project 1:** 1-3 · 2-1 · 2-2 · 4-1 · 4-2 · 6-2
+- **Week 2:** 4-2 · 6-1 · 6-2 · 6-5 · 7-2
+- **Week 3:** 4-3 · 4-4 · 5-4 · 6-4 · 11-2
+- **Week 4:** 3-2 · 3-3 · 6-2 · 11-1 · 11-2 · 11-3
+- **Week 5:** 6-4 · 7-1 · 8-2 · 8-3 · 9-2 · 10-1 · 10-2
+- **Week 6:** 4-4 · 5-1 · 5-2 · 5-3 · 5-4
+- **Week 7:** 2-3 · 6-3 · 7-2 · 7-3 · 7-5 · 9-1 · 9-2 · 9-3
+- **Week 8:** 7-4 · 7-6 · 8-3 · 8-4 · 10-2 · 10-3 · 11-1 · 11-2 · 11-3
+- **Every mission ends with:** 11-1
 
 > Reading a note right when you need it sticks far better than reading
 > it in advance. Skipping ahead and coming back works too.
@@ -75,7 +80,7 @@ Do the experiment. It is the cheapest way to turn "I read about it" into
 
 ## The trick that makes them yours
 
-These notes live as plain files in your own course repo, next to your
+These notes live as plain files in your own course folder, next to your
 project. That means your **agent**, the AI assistant working alongside
 you, can read them too.
 

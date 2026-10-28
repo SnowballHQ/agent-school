@@ -5,7 +5,7 @@ cluster_title: "Prompt engineering for business use cases"
 order: 1
 title: "Why do vague prompts produce confident garbage?"
 teaser: "The model will always answer. When you leave gaps in the request, it fills them with the most average guess available, in a perfectly assured voice."
-access: program
+access: free
 minutes: 5
 mission: "Project 1"
 ---

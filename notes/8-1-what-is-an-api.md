@@ -7,7 +7,7 @@ title: "What is an API, really?"
 teaser: "Every useful AI system spends most of its life asking other programs questions. The rules for asking are older and simpler than you think."
 access: free
 minutes: 5
-mission: "Warm-up"
+mission: "Week 0"
 ---
 
 **The idea in one line:** an API is a written promise about how to ask a program for something and what comes back.

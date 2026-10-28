@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 3
 title: "Why must data never give orders?"
 teaser: "Any text your system reads can contain a sentence addressed to your model. Safety comes from how you build, not from asking nicely."
-access: program
+access: free
 minutes: 5
-mission: "Project 3"
+mission: "Week 7"
 ---
 
 **The idea in one line:** text your agent reads can contain orders. Safety comes from limiting what the model can do, not from asking nicely.
@@ -70,7 +70,7 @@ Now imagine the model could only answer "positive", "negative" or "mixed." What 
 
 ## What this means when you build
 
-In Project 3 your agent reads material you didn't write. Before building, list every place text enters your system. Next to each, write the most damage a hostile sentence could do if the model obeyed it completely.
+In Week 7 your agent reads material you didn't write. Before building, list every place text enters your system. Next to each, write the most damage a hostile sentence could do if the model obeyed it completely.
 
 If the answer is alarming, skip the stronger instruction. Shrink the model's options, move the dangerous action behind a gate, or both. Your mentor reviews that list before any code runs.
 

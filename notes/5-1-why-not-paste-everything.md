@@ -5,9 +5,9 @@ cluster_title: "RAG systems and enterprise knowledge workflows"
 order: 1
 title: "Why can't you just paste all the company's documents into the prompt?"
 teaser: "It sounds like the obvious design, and it fails three different ways before the documents even fit."
-access: program
+access: free
 minutes: 5
-mission: "Project 3"
+mission: "Week 6"
 ---
 
 **The idea in one line:** pasting everything fails on size, cost and quality, so search first and send only what matters.
@@ -52,7 +52,7 @@ In any AI chat, paste one paragraph of anything handy and ask a question about a
 
 ## What this means when you build
 
-In Project 3 you build a knowledge agent over a collection too large to paste. Your first decision is the tray: how documents get split into pieces, how the right ones get found, and how many go to the model. Predict how many pieces a typical question needs and what it will cost, then check against the harness.
+In Week 6 you build a knowledge agent over a collection too large to paste. Your first decision is the tray: how documents get split into pieces, how the right ones get found, and how many go to the model. Predict how many pieces a typical question needs and what it will cost, then check against the harness.
 
 Search is where the gains are. One vendor study measured retrieval failures falling from 5.7% to 1.9% as three techniques stacked: a short note on where each piece came from, exact-word matching beside meaning-based search, and re-ranking the results.
 

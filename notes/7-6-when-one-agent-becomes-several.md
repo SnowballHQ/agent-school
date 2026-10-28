@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 6
 title: "When does one agent become several?"
 teaser: "Splitting work across agents adds a cost, coordination. Pay it only when the split earns it."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 8"
 ---
 
 **The idea in one line:** extra agents add coordination cost. Split only when contexts shouldn't mix or work divides cleanly.
@@ -59,7 +59,7 @@ Check whether any two ownership lists overlap. Wherever they do, work would coll
 
 ## What this means when you build
 
-In the capstone you'll justify each split.
+In Week 8 you'll justify each split.
 
 - Write down which of the two reasons applies and what the split saves, then set it against the coordination cost. If you can't name the saving, keep one agent.
 - When you do split, assign disjoint ownership, name the orchestrator, and decide who makes the final write before any agent starts.

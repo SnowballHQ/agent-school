@@ -5,9 +5,9 @@ cluster_title: "Agentic AI workflows and automation design"
 order: 4
 title: "What happens when you run it twice?"
 teaser: "Everything you build will be run twice by accident. The only question is whether the second run quietly doubles your data."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Warm-up"
 ---
 
 **The idea in one line:** design every pipeline so running it twice leaves the data exactly as running it once.
@@ -56,7 +56,7 @@ Notice which fixes depend on a stable key per piece of work. Then ask what shoul
 
 ## What this means when you build
 
-In Project 2 your pipeline gets run twice on purpose, with the database compared in between, and once more killed mid-run and resumed. Predict the result first. Build for repetition from the first line, with a key for every unit of work, and the check is a formality.
+When you build, run your pipeline twice on purpose, with the database compared in between, and once more killed mid-run and resumed. Predict the result first. Build for repetition from the first line, with a key for every unit of work, and the check is a formality.
 
 ## Check yourself
 

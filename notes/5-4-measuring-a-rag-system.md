@@ -5,9 +5,9 @@ cluster_title: "RAG systems and enterprise knowledge workflows"
 order: 4
 title: "How do you measure a system that answers questions?"
 teaser: "One accuracy number hides three different ways to be wrong. Grade them separately and you'll know what to fix."
-access: program
+access: free
 minutes: 5
-mission: "Project 3"
+mission: "Week 3"
 ---
 
 **The idea in one line:** grade answer, citation and refusal separately, because each failure points at a different fix.
@@ -45,11 +45,11 @@ You can also score retrieval alone, before any model is involved. Have a model w
 
 ## Real-world example: an exam written before the student
 
-There's no incident behind this one. It describes the harness that grades Project 3.
+There's no incident behind this one. It describes how to grade a system that answers questions, the way you will grade your own in Week 6.
 
-The golden questions are written before any learner build exists, so nobody, including us, can shape the test to fit an answer. Every question has a correct answer and a supporting passage. Some deliberately have no answer in the documents, because refusing correctly is part of the job.
+The golden questions are written before any learner build exists, so nobody, including you, can shape the test to fit an answer. Every question has a correct answer and a supporting passage. Some deliberately have no answer in the documents, because refusing correctly is part of the job.
 
-The harness reports three grades as three numbers, never merged. A bold guesser collects points on answerable questions and hides its cost on unanswerable ones. Separate lines make the guess visible.
+Your eval reports three grades as three numbers, never merged. A bold guesser collects points on answerable questions and hides its cost on unanswerable ones. Separate lines make the guess visible.
 
 ## See it yourself (2 minutes)
 
@@ -61,7 +61,7 @@ In a fresh chat, paste the paragraph and ask the five questions. Grade answer, s
 
 ## What this means when you build
 
-In Project 3 your first task is writing your own golden set before touching the build, while deciding what correct looks like is still cheap. Predict your three scores, then compare.
+In Week 6 your first task is writing your own golden set before touching the build, while deciding what correct looks like is still cheap. Predict your three scores, then compare.
 
 ## Check yourself
 

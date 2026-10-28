@@ -63,13 +63,13 @@ Look at the ratio it reports, and at its shortened version of your request. You 
 
 ## What this means when you build
 
-Every agent you ship in this program has this meter running, and the gateway we give you reads it per mission.
+Every agent you build has this meter running, and you read it from your model's response: `usage` in `claude -p --output-format json`, or the usage field of the API reply.
 
 - Before each build, write a prediction: what should this cost?
 - Afterward, compare it with what it did cost.
 - The gap between the two is where you find things like our fifty-second job.
 
-By Project 2 you report cost per document next to accuracy, as one number employers can check.
+By Week 3 you report cost per document next to accuracy, as one number employers can check.
 
 ## Check yourself
 

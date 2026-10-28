@@ -5,9 +5,9 @@ cluster_title: "AI governance, privacy, risk and guardrails"
 order: 2
 title: "How should a system fail?"
 teaser: "The most expensive output a pipeline can produce is a green checkmark that isn't true."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 5"
 ---
 
 **The idea in one line:** skip a bad row and keep going, but halt on a broken account. Never report false green.
@@ -60,7 +60,7 @@ Compare its answers with the cashier. Anywhere it says "log the error and contin
 
 ## What this means when you build
 
-Your Project 2 pipeline is graded on exactly this. The harness breaks things on purpose and watches what your system does next.
+Your Week 5 pipeline faces exactly this. Break things on purpose with your own eval and `/agent-school:check`, and watch what your system does next.
 
 - A pipeline that fails loudly, early and cheaply, with an exit status that tells the truth, scores higher than one with better accuracy and a lying checkmark.
 - In your prediction sheet, predict your failures too: which you'll absorb, which will stop you, and how you'll know which happened.

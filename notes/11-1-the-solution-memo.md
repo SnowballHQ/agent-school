@@ -5,9 +5,9 @@ cluster_title: "Stakeholder communication and solution presentation"
 order: 1
 title: "How do you explain your system to someone who will never read the code?"
 teaser: "The person who decides whether your system gets used will read one page. Here is the page."
-access: program
+access: free
 minutes: 5
-mission: "Every project"
+mission: "Every mission"
 ---
 
 **The idea in one line:** explain your system on one page with the same five
@@ -94,7 +94,7 @@ can reproduce.
 
 ## What this means when you build
 
-Every project in this program ends with a memo like this, written for a
+Every mission ends with a memo like this, written for a
 stakeholder who has never seen your code.
 
 - Start it at the beginning, not the end. Parts 1 and 4 can be drafted before

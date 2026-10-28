@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 1
 title: "Where does an agent keep its state?"
 teaser: "The model remembers nothing between calls. Everything it appears to know was put in front of it, again, by your program."
-access: program
+access: free
 minutes: 5
-mission: "Project 1"
+mission: "Warm-up"
 ---
 
 **The idea in one line:** a model remembers nothing between calls. Everything it seems to know, your program handed it again.

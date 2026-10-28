@@ -5,9 +5,9 @@ cluster_title: "AI governance, privacy, risk and guardrails"
 order: 3
 title: "Who approved that? Audit trails and the paper they leave"
 teaser: "When an AI system gets something wrong, the first question is which rows it touched. A system that can't answer that has to redo everything."
-access: program
+access: free
 minutes: 5
-mission: "Project 4"
+mission: "Week 7"
 ---
 
 **The idea in one line:** write down what made each result, so a mistake costs a small redo, not a full one.
@@ -61,12 +61,12 @@ Then delete fields one at a time and ask which question you can no longer answer
 
 ## What this means when you build
 
-In Project 4 your system acts in the world, and some actions need a human to say yes. Build the paper in from the first run.
+In Week 7 your system acts in the world, and some actions need a human to say yes. Build the paper in from the first run.
 
 - Every row your system writes gets a marker for what made it.
 - Every approval is written down with who gave it, when, and for which specific item. "Approved" with no name can't be checked later.
 
-You'll be graded on a drill: we name a row, and you say how it was made, who allowed it, and which other rows share its origin. It takes seconds if you wrote the trail when it was cheap, and days if you didn't.
+Test yourself with a drill: pick a row, and say how it was made, who allowed it, and which other rows share its origin. It takes seconds if you wrote the trail when it was cheap, and days if you didn't.
 
 ## Check yourself
 

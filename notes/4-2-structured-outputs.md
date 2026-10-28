@@ -5,7 +5,7 @@ cluster_title: "Prompt engineering for business use cases"
 order: 2
 title: "What is a structured output, and why do businesses insist on it?"
 teaser: "A database can't store a paragraph. Getting a model to answer in fields instead of prose is where prompt work stops being writing and starts being design."
-access: program
+access: free
 minutes: 5
 mission: "Project 1"
 ---
@@ -58,7 +58,7 @@ Check the shape. Now try "Do you have an office dog?", a case your list didn't a
 
 ## What this means when you build
 
-In Project 1 you write a schema before a prompt. Each field gets a name, a type and, where possible, a closed list with a sentence per option. Your grader checks shape and correctness separately. Expect more time on lists than instructions.
+In Project 1 you write a schema before a prompt. Each field gets a name, a type and, where possible, a closed list with a sentence per option. Check shape and correctness separately. Expect more time on lists than instructions.
 
 ## Check yourself
 

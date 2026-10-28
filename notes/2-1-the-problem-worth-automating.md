@@ -5,7 +5,7 @@ cluster_title: "Business problem discovery and requirement mapping"
 order: 1
 title: "How do you find the problem actually worth automating?"
 teaser: "Three numbers decide whether a task deserves automation, and sometimes the right answer is to walk away."
-access: program
+access: free
 minutes: 5
 mission: "Project 1"
 ---

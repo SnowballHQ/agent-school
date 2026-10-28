@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 2
 title: "What should the model not decide?"
 teaser: "Every question you hand to a model costs money, takes time and can come back wrong. A surprising number of them never needed a model."
-access: program
+access: free
 minutes: 5
-mission: "Project 1"
+mission: "Warm-up"
 ---
 
 **The idea in one line:** give rules to plain code and judgment to the model. Code in front and behind keeps it safe.

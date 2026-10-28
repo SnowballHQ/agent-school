@@ -5,9 +5,9 @@ cluster_title: "RAG systems and enterprise knowledge workflows"
 order: 2
 title: "What is retrieval, and what is an embedding?"
 teaser: "Search that matches words fails the moment someone phrases things differently. Search that matches meaning has to turn meaning into numbers first."
-access: program
+access: free
 minutes: 5
-mission: "Project 3"
+mission: "Week 6"
 ---
 
 **The idea in one line:** an embedding turns meaning into coordinates, so search finds what's close in meaning, not just in words.
@@ -65,7 +65,7 @@ Sentence 3 matches the words but not the meaning; 1 and 2 match the meaning with
 
 ## What this means when you build
 
-In Project 3 you make the filing decisions: how big each piece is and how many to retrieve per question. Too small and an answer splits across shelves; too large and the useful sentence drowns. Test retrieval by hand before connecting any model: ask ten questions and check the right passage is in the top few. Embeddings from different models can't be compared, and providers retire models, so plan to re-file everything if you switch.
+In Week 6 you make the filing decisions: how big each piece is and how many to retrieve per question. Too small and an answer splits across shelves; too large and the useful sentence drowns. Test retrieval by hand before connecting any model: ask ten questions and check the right passage is in the top few. Embeddings from different models can't be compared, and providers retire models, so plan to re-file everything if you switch.
 
 ## Check yourself
 

@@ -5,9 +5,9 @@ cluster_title: "APIs, data pipelines and system integration"
 order: 4
 title: "How does your agent plug into tools it has never seen?"
 teaser: "APIs let programs talk, but every connection used to be custom-built. A shared protocol changed what one small team can ship."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 8"
 ---
 
 **The idea in one line:** a shared protocol lets any agent use any tool, with no custom connection for each pair.
@@ -59,7 +59,7 @@ The last part is the lesson working. A description is the exact text another mod
 
 ## What this means when you build
 
-Your capstone is this move: one of your agents, packaged as an MCP server a stranger's agent can use cold. Our harness will be that stranger. It connects with no help from you, reads your tool descriptions, and attempts real tasks.
+Your Week 8 mission is this move: one of your agents, packaged as an MCP server a stranger's agent can use cold. Be that stranger yourself: connect a fresh agent with no help from you, let it read your tool descriptions, and see whether it can attempt real tasks.
 
 Success depends on a clean tool list, descriptions written for a reasoning reader, and limits that keep one caller from spoiling it for the rest. When it works, you've shipped what employers mean by "built with AI": a capability other systems can rely on.
 

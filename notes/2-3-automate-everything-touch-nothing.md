@@ -5,9 +5,9 @@ cluster_title: "Business problem discovery and requirement mapping"
 order: 3
 title: "Why do stakeholders say \"automate everything\" and mean \"don't touch anything\"?"
 teaser: "People ask for full automation and then get nervous at the first sign of it. Trust arrives in slices."
-access: program
+access: free
 minutes: 5
-mission: "Project 4"
+mission: "Week 7"
 ---
 
 **The idea in one line:** stakeholders who ask for full automation want control, so grant trust in slices, earned by evidence.
@@ -68,7 +68,7 @@ The best climbing conditions are measurable, like "ninety-five of the last hundr
 
 ## What this means when you build
 
-In Project 4 you design a system that acts on the world. Your mentor skill asks you to plan its permissions as a ladder, not a switch:
+In Week 7 you design a system that acts on the world. Your mentor skill asks you to plan its permissions as a ladder, not a switch:
 
 - Which actions can the system take on its own?
 - Which wait for a person?

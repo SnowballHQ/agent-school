@@ -5,9 +5,9 @@ cluster_title: "Systems that improve themselves"
 order: 1
 title: "Why doesn't the model learn from its mistakes?"
 teaser: "The model you use today is the same model tomorrow, however many times it gets something wrong. The system around it is where learning happens, if you build it."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 5"
 ---
 
 **The idea in one line:** the model never learns from your corrections. The
@@ -101,14 +101,14 @@ The three things it lists are your levers.
 
 ## What this means when you build
 
-In Project 2 you will run your pipeline against an eval set and report a
+From Week 3 you run your pipeline against an eval set and report a
 score. From then on you own a loop.
 
 - Every failure you find should leave behind one lever pulled: a rule, an
   example, a guard test.
 - Write down the date and the score before and after.
 
-By the capstone, that list is the evidence your system learns even though
+By Week 8, that list is the evidence your system learns even though
 your model never does.
 
 ## Check yourself

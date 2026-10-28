@@ -5,15 +5,15 @@ cluster_title: "Systems that improve themselves"
 order: 2
 title: "What is a decision trace, and why write down the why?"
 teaser: "Logs tell you what your system did. A decision trace tells the next person why it was built that way, and that is the part nobody can reconstruct later."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 5"
 ---
 
 **The idea in one line:** a log shows what the system did. A decision trace
 records why you chose it over the alternatives.
 
-A cousin you'll meet in Project 4 is the **audit trail**, the record of what
+A cousin you'll meet in Week 7 is the **audit trail**, the record of what
 happened and who approved it. It answers "what happened, and was it allowed?"
 
 A **decision trace** answers "why this option, and not the others?" It
@@ -96,7 +96,7 @@ Before each build you write a prediction sheet: what you expect the system
 to cost, how accurate it will be, and why. That sheet is a decision trace
 about yourself, and the gap to the real numbers is where you learn.
 
-From Project 2 on, keep one ADR per significant choice in your repo. A
+From Week 3 on, keep one ADR per significant choice in your repo. A
 reviewer should be able to answer "why is it built this way?" without asking
 you.
 

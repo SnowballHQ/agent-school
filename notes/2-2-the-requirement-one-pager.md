@@ -5,7 +5,7 @@ cluster_title: "Business problem discovery and requirement mapping"
 order: 2
 title: "What does a good requirement one-pager look like?"
 teaser: "One page, six headings, and a single hard constraint that can reshape the whole system behind it."
-access: program
+access: free
 minutes: 5
 mission: "Project 1"
 ---

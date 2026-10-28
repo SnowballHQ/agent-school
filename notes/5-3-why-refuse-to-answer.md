@@ -5,9 +5,9 @@ cluster_title: "RAG systems and enterprise knowledge workflows"
 order: 3
 title: "Why must a knowledge agent sometimes refuse to answer?"
 teaser: "A system that always has an answer will eventually give you a wrong one in a perfectly confident voice."
-access: program
+access: free
 minutes: 5
-mission: "Project 3"
+mission: "Week 6"
 ---
 
 **The idea in one line:** a knowledge agent must say "the documents don't cover that" instead of guessing smoothly.
@@ -59,7 +59,7 @@ Questions 2 and 3 have no answer in the text. Notice whether it refuses cleanly,
 
 ## What this means when you build
 
-In Project 3 the harness asks questions your documents can't answer, to see whether you built a refusal path or a guess machine. Write it on purpose: what counts as "not in the passages," what the agent says, and what it suggests next.
+In Week 6 you write the questions your documents can't answer into your own eval, and run `/agent-school:check`, to see whether you built a refusal path or a guess machine. Write it on purpose: what counts as "not in the passages," what the agent says, and what it suggests next.
 
 ## Check yourself
 

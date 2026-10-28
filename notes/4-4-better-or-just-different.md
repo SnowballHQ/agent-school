@@ -5,9 +5,9 @@ cluster_title: "Prompt engineering for business use cases"
 order: 4
 title: "How do you know your new prompt is better and not just different?"
 teaser: "Every edit to a prompt feels like an improvement. A fixed set of hand-checked answers is the only thing that tells you when it isn't."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 3"
 ---
 
 **The idea in one line:** a prompt change is better only if a score on hidden, hand-checked rows says so.
@@ -60,7 +60,7 @@ Write eight short customer messages and label each by hand as "refund", "bug" or
 
 ## What this means when you build
 
-In Project 2 you hold back a labeled set before tuning and don't look at it until scoring. Each prompt change is logged with accuracy, cost and speed, so you answer "why does it read this way?" with rows, not recollections.
+In Week 3 you hold back a labeled set before tuning and don't look at it until scoring. Each prompt change is logged with accuracy, cost and speed, so you answer "why does it read this way?" with rows, not recollections.
 
 ## Check yourself
 

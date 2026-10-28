@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 4
 title: "What is a skill, and how does an agent learn your way of working?"
 teaser: "A skill is a file of rules and real examples that an agent loads when the task matches. It is how taste gets passed on without retraining anything."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 8"
 ---
 
 **The idea in one line:** a skill is a file of rules and examples an agent loads only when the task matches.
@@ -57,7 +57,7 @@ Read the five rules and judge them. Which are real? Which are generic? The dista
 
 ## What this means when you build
 
-In Project 2 you'll write your first skill: a short file of rules with examples drawn from real data you've looked at.
+In Week 8 you'll write a skill: a short file of rules with examples drawn from real data you've looked at.
 
 - Keep it small. Five rules you can defend beat fifty you can't.
 - Your mentor will ask you to point to the real example behind each rule.

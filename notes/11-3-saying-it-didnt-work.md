@@ -5,9 +5,9 @@ cluster_title: "Stakeholder communication and solution presentation"
 order: 3
 title: "How do you say \"it didn't work\"?"
 teaser: "A clean account of a failure is worth more than a clean record. Here is a real one, written the way we write them."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 4"
 ---
 
 **The idea in one line:** a clean written account of a failure earns more
@@ -85,8 +85,8 @@ The short version is the credible one.
 
 ## What this means when you build
 
-In the Capstone you'll present a system to a stakeholder, and you'll be
-expected to include one thing that went wrong while you built it.
+In Week 8 you'll present a system to a stakeholder, and you should
+include one thing that went wrong while you built it.
 
 - Choose the failure with the best doctrine, the one that changed how you
   work.

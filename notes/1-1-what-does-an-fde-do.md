@@ -70,7 +70,7 @@ Notice how few questions are technical: who counts stock, when, what goes wrong 
 
 ## What this means when you build
 
-Across the program you will do all four jobs in every project:
+Across the missions you will do all four jobs in every build:
 
 - interview the problem
 - build the system

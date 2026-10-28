@@ -5,9 +5,9 @@ cluster_title: "Systems that improve themselves"
 order: 3
 title: "Should the agent be allowed to improve itself?"
 teaser: "An agent can read its own track record and suggest what to change. Whether those suggestions take effect should never be up to the agent."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 8"
 ---
 
 **The idea in one line:** the agent may propose changes to itself. A person
@@ -84,7 +84,7 @@ that survives is better than the one proposed.
 
 ## What this means when you build
 
-For your capstone, you will give your agent a way to propose improvements
+In Week 8, you will give your agent a way to propose improvements
 from its own traces, and build the gate in front of them.
 
 - Every proposal arrives marked as pending, with the evidence beside it.

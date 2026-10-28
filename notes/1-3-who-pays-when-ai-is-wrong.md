@@ -5,7 +5,7 @@ cluster_title: "AI deployment mindset and FDE responsibilities"
 order: 3
 title: "Who pays when the AI is wrong?"
 teaser: "Mistakes are not equal in price. Find the one that costs the most and build the system around stopping that one."
-access: program
+access: free
 minutes: 5
 mission: "Project 1"
 ---

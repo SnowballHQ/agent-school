@@ -5,9 +5,9 @@ cluster_title: "The anatomy of an agent"
 order: 5
 title: "How does an agent remember yesterday?"
 teaser: "Agent memory is files it writes and reads back. That makes it simple to build, and it makes stale memory a liability."
-access: program
+access: free
 minutes: 5
-mission: "Project 4"
+mission: "Week 7"
 ---
 
 **The idea in one line:** agent memory is files it writes and reads back, and old notes are claims to re-check.
@@ -60,14 +60,14 @@ Look at the "re-check" lines. Each is a place where yesterday's fact could be st
 
 ## What this means when you build
 
-In Project 4 your agent runs across more than one session, so it needs memory before anything fancier. Build the smallest version:
+In Week 7 your agent runs across more than one session, so it needs memory before anything fancier. Build the smallest version:
 
 - an index with a hard cap
 - one note per open thread
 - an archive for closed ones
 - a habit: every note that names something checkable gets checked before it drives an action
 
-Your graded run starts your agent cold with only its memory files in place. That is the quickest way to learn whether what it wrote down is useful or merely long.
+A good test starts your agent cold with only its memory files in place. That is the quickest way to learn whether what it wrote down is useful or merely long.
 
 ## Check yourself
 

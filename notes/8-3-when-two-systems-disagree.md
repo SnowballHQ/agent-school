@@ -5,9 +5,9 @@ cluster_title: "APIs, data pipelines and system integration"
 order: 3
 title: "What breaks when two systems quietly disagree?"
 teaser: "Both systems pass their tests and the combination is still wrong. The bug lives in the assumption between them."
-access: program
+access: free
 minutes: 5
-mission: "Capstone"
+mission: "Week 5"
 ---
 
 **The idea in one line:** two systems can each be correct and still wrong together, because they assume different things.
@@ -59,7 +59,7 @@ The proposed tests almost all share a form: take a case where you already know t
 
 ## What this means when you build
 
-In your Capstone you'll connect pieces you didn't write: a data source, a model, a tool. Each connection is a place where two parties may use the same word differently.
+In Week 5 you'll connect pieces you didn't write: a data source, a model, a tool. Each connection is a place where two parties may use the same word differently.
 
 - Before trusting any join, run it on three cases you already know the answer to, including one that should come back empty.
 - For every integration, add a line to your project notes: "A says X, B reads it as Y."

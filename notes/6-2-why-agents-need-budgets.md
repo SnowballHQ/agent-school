@@ -5,9 +5,9 @@ cluster_title: "Agentic AI workflows and automation design"
 order: 2
 title: "Why does every agent need a budget?"
 teaser: "A loop that costs a little per turn has no ceiling unless you build one. A budget turns a nasty surprise into a number you chose."
-access: program
+access: free
 minutes: 5
-mission: "Project 1"
+mission: "Warm-up"
 ---
 
 **The idea in one line:** a loop has no natural ceiling, so set caps before the first run.

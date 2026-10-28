@@ -5,9 +5,9 @@ cluster_title: "AI governance, privacy, risk and guardrails"
 order: 1
 title: "What must the model never see?"
 teaser: "Anything you put in a prompt has left the building. The safest data to protect is the data you never sent."
-access: program
+access: free
 minutes: 5
-mission: "Project 4"
+mission: "Week 7"
 ---
 
 **The idea in one line:** anything in a prompt has left the building. Send the model only what the task needs.
@@ -47,7 +47,7 @@ Nobody grants everything at once, and granting one slice does not quietly grant 
 
 Each part of the system asks "which slice covers what I'm about to do?" before it touches the data, the way the valet key limits what the car can do. A part that only does matching should have no reason to see contact details at all.
 
-The same instinct sets a rule for this course. Graded runs never touch a learner's personal accounts or data. Your agent works against our sample data and sandbox, so the program that grades you can't leak what it never held.
+The same instinct sets a rule worth copying. Keep your own accounts and personal data out of your test runs. Point your agent at sample data and a sandbox, so a bug can't leak what it never held.
 
 ## See it yourself (2 minutes)
 
@@ -59,7 +59,7 @@ Compare the two versions. Usually the task needs a sentence or two of the compla
 
 ## What this means when you build
 
-In Project 4 your system touches material that belongs to someone.
+In Week 7 your system touches material that belongs to someone.
 
 - Before any prompt, make a two-column list: what the task needs, and what's merely nearby.
 - Only the first column goes to the model. Strip the rest in your own code before the request is sent. Asking a model to ignore something it can see is a request. Stripping is a guarantee.

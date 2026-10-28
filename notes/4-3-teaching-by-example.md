@@ -5,9 +5,9 @@ cluster_title: "Prompt engineering for business use cases"
 order: 3
 title: "How do examples teach a model what you mean?"
 teaser: "Some instructions can't be explained but can be shown. A handful of well-chosen examples often does more than a page of rules."
-access: program
+access: free
 minutes: 5
-mission: "Project 2"
+mission: "Week 3"
 ---
 
 **The idea in one line:** a few well-chosen examples can teach a judgement that a page of rules can't.
@@ -64,7 +64,7 @@ See whether the label changed. Then swap in a contradictory example and resend.
 
 ## What this means when you build
 
-In Project 2 you hand-label a small set, then split it into a teaching portion and a held-back portion the model never sees until grading. Pick teaching examples from the cases you'd argue about with a colleague.
+In Week 3 you hand-label a small set, then split it into a teaching portion and a held-back portion the model never sees until grading. Pick teaching examples from the cases you'd argue about with a colleague.
 
 ## Check yourself
 
