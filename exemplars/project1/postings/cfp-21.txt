@@ -1,0 +1,8 @@
+Posted: 2026-10-02
+CloudNative Tech Week Tokyo
+
+Hybrid event: Tokyo Big Sight and online, 20-24 September 2027. We seek proposals for talks (25 minutes) and panels (45 minutes) covering Kubernetes, observability, platform engineering and FinOps. Beginner-friendly track available.
+
+Deadline for proposals: 10 April 2027.
+
+In-person speakers: economy flights and three nights hotel. Online speakers: nothing. Fee: no.

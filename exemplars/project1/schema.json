@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["is_cfp", "conference_name", "submission_deadline", "deadline_quote",
+               "event_start_date", "format", "audience_level", "travel_support"],
+  "properties": {
+    "is_cfp": {"type": "boolean"},
+    "conference_name": {"type": ["string", "null"]},
+    "submission_deadline": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "deadline_quote": {"type": ["string", "null"]},
+    "event_start_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "format": {"type": "string", "enum": ["in_person", "virtual", "hybrid", "unclear"]},
+    "audience_level": {"type": "string", "enum": ["beginner", "intermediate", "advanced", "all", "unclear"]},
+    "travel_support": {"type": "string", "enum": ["full", "partial", "none", "unclear"]}
+  }
+}

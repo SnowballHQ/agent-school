@@ -1,0 +1,6 @@
+Posted: 2026-09-15
+Rust Nights Bangalore: speak at our November meetup
+
+Short call: we run a monthly in-person meetup in Bangalore and want a 20-minute talk on anything Rust. Date: 27 November 2026. Send a one-paragraph summary to the organisers. Rolling submissions; we fill the slot as soon as someone good replies.
+
+Audience is a mix, mostly intermediate. Unpaid, no travel funds.

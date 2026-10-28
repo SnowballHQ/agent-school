@@ -1,0 +1,4 @@
+mission: p2
+install: "true"
+run: "python pipeline.py"
+fields: [remote_type, seniority]

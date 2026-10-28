@@ -1,0 +1,8 @@
+Posted: 2026-09-29
+Call for Proposals - ML Ops Community Conference (MOCC) 2027
+
+MOCC returns to Austin, Texas, in person, 8-10 March 2027. We would like talks on productionising machine learning: monitoring, feature stores, cost, governance. Intermediate and advanced.
+
+Early proposals (by 15 October 2026) are reviewed first and have a better chance of a main stage slot. All proposals must be in by 30 October 2026.
+
+Speaker perks: hotel for two nights. Travel is not covered.

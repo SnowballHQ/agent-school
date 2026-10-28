@@ -1,0 +1,1 @@
+{"session_id":"s1","transcript_path":"@T@","cwd":"@CWD@","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"curl -H 'Authorization: Bearer abcdef1234567890' x; export API_KEY=zzz123"},"tool_response":"ok","tool_use_id":"t1"}

@@ -1,0 +1,2 @@
+{"event":"tool_call","tool":"Bash"}
+{"event":"tool_result","tool":"Bash"}

@@ -1,0 +1,6 @@
+Posted: 2026-09-19
+Linux Storage Workshop - call for presentations
+
+The workshop is an invitation-oriented gathering of kernel and storage developers, held in Boston, MA, USA from 2 to 4 November 2026. Presentations are expected to be technical and for experts.
+
+Proposals must be received no later than 25 September 2026. Attendance is in person only. There is no fee for speakers and no stipend.

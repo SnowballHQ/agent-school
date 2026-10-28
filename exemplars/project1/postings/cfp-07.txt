@@ -1,0 +1,6 @@
+Posted: 2026-09-14
+Sponsor the Kubernetes Community Day Berlin!
+
+KCD Berlin will be held on 3 March 2027 in Berlin, Germany. We are looking for sponsors in three tiers (Gold 8,000 EUR, Silver 4,000 EUR, Community 1,000 EUR). Sponsors receive a booth, logo placement, and two tickets per tier.
+
+Contact sponsors@kcd-berlin.example before 31 December 2026 to reserve a package.

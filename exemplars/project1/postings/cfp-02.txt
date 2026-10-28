@@ -1,0 +1,8 @@
+Posted: 2026-09-05
+CALL FOR PAPERS: Distributed Systems Summit EU
+
+The Distributed Systems Summit EU takes place 9-11 June 2027 at the Vienna Congress Center. We invite practitioner talks on consensus, storage, and operating large clusters. Talks assume working knowledge of distributed systems.
+
+IMPORTANT: The submission deadline has been extended from 1 November 2026 to 15 November 2026. No further extensions will be given.
+
+Speakers receive free conference registration. Travel and accommodation are the responsibility of the speaker. A limited number of travel grants for under-represented groups are available on application.

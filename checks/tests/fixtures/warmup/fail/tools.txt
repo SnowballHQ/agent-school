@@ -1,0 +1,2 @@
+search_jobs: search the board
+get_job: fetch one posting by slug

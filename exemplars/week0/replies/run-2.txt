@@ -1,0 +1,1 @@
+A token is a unit of text—such as a word, part of a word, punctuation mark, or symbol—that an AI model processes as input or output.

@@ -1,7 +1,7 @@
 {
   "name": "agent-school",
-  "version": "0.1.0",
-  "description": "Free starter for the Agent School: the foundations field notes and the warm-up mission.",
+  "version": "0.2.0",
+  "description": "Agent School: a free, self-paced course in building and checking AI agents. Ten missions, 43 field notes, a mentor, local checks and an oral defense, all inside Claude Code.",
   "author": {"name": "Deployed (Stak)"},
   "homepage": "https://deployed.so/courses"
 }

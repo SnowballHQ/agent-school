@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "complete": true,
+    "fetched": 6
+  },
+  "postings": {
+    "job-01": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 1"
+    },
+    "job-02": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 2"
+    },
+    "job-03": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 3"
+    },
+    "job-04": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 4"
+    },
+    "job-05": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 5"
+    },
+    "job-06": {
+      "first_seen": "2026-10-28T00:00:00Z",
+      "gone_at": null,
+      "last_seen": "2026-10-28T00:00:00Z",
+      "title": "Role 6"
+    }
+  }
+}

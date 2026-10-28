@@ -1,0 +1,4 @@
+run 1 | q=A | in=12 | out=31 | reply 1
+run 2 | q=A | in=12 | out=32 | reply 2
+run 3 | q=A | in=12 | out=33 | reply 3
+run 4 | q=B | in=12 | out=34 | reply 4

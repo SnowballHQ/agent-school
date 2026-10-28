@@ -1,0 +1,16 @@
+id,is_cfp,conference_name,submission_deadline,deadline_quote,event_start_date,format,audience_level,travel_support
+cfp-01,true,PyHarbor 2027,2026-11-30,,2027-03-18,in_person,all,full
+cfp-02,true,Distributed Systems Summit EU,2026-11-15,,2027-06-09,in_person,intermediate,none
+cfp-03,true,Open Data Day Mumbai,2026-10-20,,2027-02-07,in_person,all,none
+cfp-04,true,SecureCode Conf 2027,2026-12-14,,2027-04-27,virtual,advanced,none
+cfp-06,true,Women in Data Science Nairobi,,,2026-10-22,in_person,all,unclear
+cfp-07,false,,,,,unclear,unclear,unclear
+cfp-09,true,AI Engineering World Forum 2027,,,2027-09-15,hybrid,all,partial
+cfp-11,true,Linux Storage Workshop,2026-09-25,,2026-11-02,in_person,advanced,none
+cfp-14,true,Frontend Futures,2027-01-31,,2027-10-14,in_person,all,partial
+cfp-15,true,Hack the Planet Con,,,2027-06-03,in_person,all,none
+cfp-16,true,Annual Symposium on Applied Machine Learning in Healthcare (SAMLH 2027),,,2027-04-12,in_person,advanced,none
+cfp-19,true,ML Ops Community Conference (MOCC) 2027,2026-10-30,,2027-03-08,in_person,intermediate,partial
+cfp-22,true,PHP Meetup Chennai,2026-10-24,,2026-11-14,in_person,all,none
+cfp-23,false,Product Camp Dublin,,,,unclear,unclear,unclear
+cfp-24,true,Postgres Europe Conference 2027,2027-06-01,,2027-11-07,in_person,advanced,partial

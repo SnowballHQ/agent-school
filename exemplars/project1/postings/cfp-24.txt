@@ -1,0 +1,6 @@
+Posted: 2026-10-05
+Postgres Europe Conference 2027 - Call for Presentations
+
+Where: Prague, Czechia. When: 7-9 November 2027 (in person). Our speakers are Postgres contributors and users. We look for talks on query planning, replication, extensions and migration stories. Advanced users are the main audience.
+
+The call for presentations closes 1 June 2027. Accepted speakers get free conference entry; the conference covers hotel for up to 3 nights for talks accepted before 1 August 2027. Travel costs are paid by the speaker. No fee.

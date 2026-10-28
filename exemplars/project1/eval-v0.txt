@@ -1,0 +1,26 @@
+rows labelled: 15   rows with no output (failed): 0
+  is_cfp               14/15   93%
+  conference_name      15/15  100%
+  submission_deadline  13/15   87%
+  event_start_date     14/15   93%
+  format               13/15   87%
+  audience_level       13/15   87%
+  travel_support       11/15   73%
+cell accuracy: 93/105 = 88.6%
+confident-wrong deadlines: 2
+   cfp-06.txt gave 2026-09-10, label says None
+   cfp-16.txt gave 2027-01-15, label says None
+wrong cells:
+   cfp-02.txt  travel_support     got 'partial', want 'none'
+   cfp-06.txt  submission_deadline got '2026-09-10', want None
+   cfp-06.txt  audience_level     got 'beginner', want 'all'
+   cfp-06.txt  travel_support     got 'partial', want 'unclear'
+   cfp-16.txt  submission_deadline got '2027-01-15', want None
+   cfp-16.txt  format             got 'hybrid', want 'in_person'
+   cfp-16.txt  travel_support     got 'partial', want 'none'
+   cfp-23.txt  is_cfp             got True, want False
+   cfp-23.txt  event_start_date   got '2027-03-12', want None
+   cfp-23.txt  format             got 'in_person', want 'unclear'
+   cfp-23.txt  audience_level     got 'all', want 'unclear'
+   cfp-23.txt  travel_support     got 'none', want 'unclear'
+FAIL

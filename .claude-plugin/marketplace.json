@@ -1,6 +1,6 @@
 {
   "name": "agent-school",
   "owner": {"name": "Deployed (Stak)"},
-  "description": "Free starter for the Agent School: the foundations field notes and the warm-up mission.",
+  "description": "Agent School: a free, self-paced course in building and checking AI agents. Ten missions, 43 field notes, a mentor, local checks and an oral defense.",
   "plugins": [{"name": "agent-school", "source": "./"}]
 }

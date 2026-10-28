@@ -1,0 +1,13 @@
+$ diff run1.jsonl run2.jsonl   (run 2 used an empty cache, so it made 20 fresh model calls)
+9c9
+< {"id": "25138", "remote_type": "hybrid", "seniority": "mid"}
+---
+> {"id": "25138", "remote_type": "hybrid", "seniority": "junior"}
+12c12
+< {"id": "27858", "remote_type": "remote", "seniority": "senior"}
+---
+> {"id": "27858", "remote_type": "hybrid", "seniority": "senior"}
+(exit code 1; 0 means identical)
+
+23c7ed3d6a6174b375f24984084ec5ee767dc30b2e153b477d448cb827af4698  run1.jsonl
+f268fa62401fe31ecf0567d0da13080d8d0dad841efcfeafc1d43ffbe6324240  run2.jsonl

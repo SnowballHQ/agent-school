@@ -1,0 +1,1 @@
+{"session_id":"s1","transcript_path":"@T@","cwd":"@CWD@","hook_event_name":"PostToolUse","tool_name":"Write","tool_input":{"file_path":"/x/agent.py","content":"BIGBODY"},"tool_response":{},"tool_use_id":"t2"}

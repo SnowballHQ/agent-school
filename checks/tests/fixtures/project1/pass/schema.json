@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "seniority": {
+      "enum": [
+        "junior",
+        "mid",
+        "senior"
+      ]
+    },
+    "remote": {
+      "enum": [
+        "yes",
+        "no",
+        "hybrid"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "seniority",
+    "remote"
+  ],
+  "additionalProperties": false
+}

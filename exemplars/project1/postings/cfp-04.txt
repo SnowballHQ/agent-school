@@ -1,0 +1,8 @@
+Posted: 2026-09-09
+SecureCode Conf 2027 CFP
+
+Our conference is fully virtual, so you can speak from anywhere. Dates: 27 and 28 April 2027, streamed live. We want advanced talks on application security: threat modelling, supply chain attacks, fuzzing at scale.
+
+Closing date for submissions: 14 December 2026 (23:59 Anywhere on Earth).
+
+Speakers receive a 300 USD honorarium. No travel is needed since the event is online.

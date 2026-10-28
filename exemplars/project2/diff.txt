@@ -1,0 +1,12 @@
+$ diff run1.jsonl run2.jsonl   (run 2 used an empty cache: 60 fresh model calls)
+9c9
+< {"id": "25138", "remote_type": "hybrid", "seniority": "mid"}
+---
+> {"id": "25138", "remote_type": "hybrid", "seniority": "junior"}
+(exit code 1; 0 means identical)
+
+23c7ed3d6a6174b375f24984084ec5ee767dc30b2e153b477d448cb827af4698  run1.jsonl
+220ba1d23dad6e354d79817f16207337e78e357fe177252d18b06a0420a69a51  run2.jsonl
+
+$ diff run1.jsonl run3-cached.jsonl   (run 3 reuses run 1 cache dir, as a same-machine second run would)
+(exit code 0)

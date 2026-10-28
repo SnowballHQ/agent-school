@@ -1,0 +1,9 @@
+$ python3 extract.py   (second run)
+nothing to do
+
+$ diff -r snap/after-run1 outputs   (snapshot taken after run 1)
+(exit code 0; 0 = identical)
+
+$ shasum of outputs/*.json after run 1 vs after run 2
+646ad6677acf8208b122ef506265fb645c3605cc5ef2cba0f8ce01eb042bf5a8  -
+646ad6677acf8208b122ef506265fb645c3605cc5ef2cba0f8ce01eb042bf5a8  -

@@ -1,8 +1,6 @@
-# Agent School (free starter)
+# Agent School
 
-**Agent School** — Deployed's agent engineering program.
-
-This plugin is the free starter for the program: nine foundations field notes and the warm-up mission, packaged for Claude Code so the notes can be read, explained and quizzed inside your own project.
+**Agent School** is a free, self-paced course in building and checking AI agents: eight weeks plus pre-work, run entirely inside Claude Code next to your own project. No account, no payment, no cohort. Start anywhere and skip what is too basic.
 
 ## Install
 
@@ -11,20 +9,45 @@ claude plugin marketplace add SnowballHQ/agent-school
 claude plugin install agent-school@agent-school
 ```
 
-## What is inside
+Then, in an empty folder for your work, run `/agent-school:setup` and `/agent-school:mission`.
 
-- `notes/`: nine short notes on what a model does, tokens, context windows, why answers differ between runs, what an agent is, and what an API is. Each ends with a two-minute experiment.
-- `missions/1-warmup.md`: the warm-up mission. You build a small agent that watches a live job board and reports what is new, and you write down predictions before you build.
-- `skills/field-notes`: lets Claude open and teach from the notes, and re-explain them with your project as the example.
-- `skills/warm-up-mission`: walks you through the mission and holds you to the prediction step.
-- `.mcp.json`: connects the live Deployed job board (https://deployed.so/mcp), which the warm-up mission uses.
+## The ten missions
+
+Pick any, in any order: `week0` (first call, first trace), `warmup` (the job-watch agent), `project1`, and `week2` to `week8`. Each brief says what to build, what to predict before you build, and what done means.
+
+## The 43 field notes
+
+The start-here guide plus 42 short notes in eleven clusters, from what a model is doing to how to present a failure. Each ends with a two-minute experiment. Ask for one by number (`3-2`) or topic with `/agent-school:notes`.
 
 ## Commands
 
-- `/agent-school:notes`: list the notes and pick one.
-- `/agent-school:mission`: start or resume the warm-up mission.
-- `/agent-school:enroll`: what the full program is and how to join.
+- `/agent-school:setup`: set up the folder (`.course/` trace marker, `COURSE_PROGRESS.md`).
+- `/agent-school:mission`: pick a mission and start or resume it.
+- `/agent-school:notes`: browse the notes and read one.
+- `/agent-school:predict`: write `PREDICTION.md` before you build.
+- `/agent-school:gap`: fill the `## The gap` section from your real token numbers.
+- `/agent-school:check`: run the mission's local checks.
+- `/agent-school:defend`: the oral defense; feedback on your thinking is written into `COURSE_PROGRESS.md`.
+- `/agent-school:exemplar`: reveal a worked example after your own attempt (or an explicit skip).
+- `/agent-school:submit`: optional; open a public portfolio issue on SnowballHQ/agent-school-submissions.
+- `/agent-school:progress`: see where you are and what to try next.
+- `/agent-school:next`: what comes after: Course 2 and the Deployed board.
 
-## The full program
+Skills: `mentor` (hints in a fixed order, prediction discipline) and `field-notes`. `.mcp.json` connects the live Deployed job board (https://deployed.so/mcp).
 
-Ten weeks, four graded projects and a capstone, checked by a harness. Details and the waitlist: https://deployed.so/courses
+## Choosing a model
+
+The agents you build run on a model you choose, and choosing is part of the learning. Most people use Claude Code's print mode on their existing subscription (`claude -p --output-format json` returns the answer plus `usage` and `total_cost_usd`, no API key needed). The alternatives are an API key from a model provider, or another provider altogether. Week 0 walks through the trade-offs and asks you to record your choice in `COURSE_PROGRESS.md`; start there if you are unsure.
+
+## What the plugin records
+
+This plugin keeps a local record of your work so the mentor and reviewers can give feedback on what actually happened, not on a summary of it. It follows the same rule as note 9-1: send only what the task needs, and say plainly what leaves your machine.
+
+- **What.** For each tool call: the tool name and a short summary (file path, or the shell command; strings capped at 500 characters). For each conversation: the full text of your prompts and the replies, with the model and token counts.
+- **Where.** In your own project repo, under `.course/trace/`. Nothing is sent anywhere by the plugin.
+- **When it records.** Only in a repo that has a `.course/` directory (the course repo marker). Anywhere else the hook does nothing.
+- **When it travels.** Only when you run `/agent-school:submit`. The traces ride along inside your repo, so you commit them first, and the command asks before staging `.course/trace/`. If you never submit, they never leave your machine.
+- **The scrub.** Before anything is written, API keys (`sk-ant-...`, `sk-...`, AWS `AKIA...`), bearer tokens and lines like `api_key=...`, `token: ...`, `password=...` or `secret=...` have their values replaced by `[REDACTED]`. A scrub is a safety net, not a guarantee: do not paste secrets or other people's personal data into prompts in the first place.
+- **How to delete.** `rm -rf .course/trace` removes everything the plugin recorded. You can read it first: it is plain JSON lines.
+
+Consent is yours slice by slice: recording locally is on in course repos, sharing is a separate act you choose by submitting.

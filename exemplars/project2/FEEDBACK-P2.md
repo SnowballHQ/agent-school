@@ -1,0 +1,10 @@
+# Brief ambiguities found while building the P2 exemplar
+
+1. **Label vocabulary is never stated.** CONTRACT.md shows `remote_type, seniority` but not the allowed values. The only way to learn them (remote/hybrid/onsite; intern/junior/mid/senior/lead/staff/exec) is to open dev `labels.json`. Say so in the mission text, or list the values in p2.yaml.
+2. **Rubric for the labels is absent.** Where does "Associate Director" land (exec in dev)? "Head of ..." (lead)? Freelance or analyst roles (junior, intern)? Students must reverse-engineer this from 20 examples. Either document it or tell students that is the exercise.
+3. **Silent postings.** Nothing says what `remote_type` should be when a posting does not mention location policy. Dev labels suggest onsite, but that is a guess from few cases.
+4. **Run-twice vs temperature.** The contract says "use temperature=0", but some models reject or ignore it. Even with it set, two fresh runs of a single-call pipeline differed on 2 of 20 postings in our test. It is unclear whether `/tmp` survives between the harness's two runs (so a cache would make run 2 trivially identical) or is wiped. Please state which; it decides whether a cache is a legitimate fix.
+5. **Cost is not predictable from the docs.** "Current price tables" are mentioned but not published, so students cannot write the cost half of a prediction except as tokens. Publish the per-million-token prices (or a per-run token estimator).
+6. **Install.** `install` is optional, yet the example shows pip. For a stdlib-only pipeline the exemplar sets `install: "true"`; confirm that omitting it is fine and that `requirements.txt` is not required.
+7. **Mixed file types.** The contract lists .md/.txt/.json inputs; dev has only .txt. For .json inputs the shape (raw text field? whole file as text?) is unspecified.
+8. **Dev vs hidden size.** The hidden set's size is not stated, so students cannot judge how noisy a per-class recall over a handful of rows will be (some classes have 1 to 2 dev examples).

@@ -1,0 +1,2 @@
+{"role":"user","text":"run ask.py","usage":null}
+{"role":"assistant","text":"done","usage":{"input_tokens":10,"output_tokens":5},"stop_reason":"end_turn"}

@@ -1,0 +1,152 @@
+[
+  {
+    "file": "cfp-01.txt",
+    "is_cfp": true,
+    "conference_name": "PyHarbor 2027",
+    "submission_deadline": "2026-11-30",
+    "event_start_date": "2027-03-18",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "full"
+  },
+  {
+    "file": "cfp-02.txt",
+    "is_cfp": true,
+    "conference_name": "Distributed Systems Summit EU",
+    "submission_deadline": "2026-11-15",
+    "event_start_date": "2027-06-09",
+    "format": "in_person",
+    "audience_level": "intermediate",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-03.txt",
+    "is_cfp": true,
+    "conference_name": "Open Data Day Mumbai",
+    "submission_deadline": "2026-10-20",
+    "event_start_date": "2027-02-07",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-04.txt",
+    "is_cfp": true,
+    "conference_name": "SecureCode Conf 2027",
+    "submission_deadline": "2026-12-14",
+    "event_start_date": "2027-04-27",
+    "format": "virtual",
+    "audience_level": "advanced",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-06.txt",
+    "is_cfp": true,
+    "conference_name": "Women in Data Science Nairobi",
+    "submission_deadline": null,
+    "event_start_date": "2026-10-22",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "unclear"
+  },
+  {
+    "file": "cfp-07.txt",
+    "is_cfp": false,
+    "conference_name": null,
+    "submission_deadline": null,
+    "event_start_date": null,
+    "format": "unclear",
+    "audience_level": "unclear",
+    "travel_support": "unclear"
+  },
+  {
+    "file": "cfp-09.txt",
+    "is_cfp": true,
+    "conference_name": "AI Engineering World Forum 2027",
+    "submission_deadline": null,
+    "event_start_date": "2027-09-15",
+    "format": "hybrid",
+    "audience_level": "all",
+    "travel_support": "partial"
+  },
+  {
+    "file": "cfp-11.txt",
+    "is_cfp": true,
+    "conference_name": "Linux Storage Workshop",
+    "submission_deadline": "2026-09-25",
+    "event_start_date": "2026-11-02",
+    "format": "in_person",
+    "audience_level": "advanced",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-14.txt",
+    "is_cfp": true,
+    "conference_name": "Frontend Futures",
+    "submission_deadline": "2027-01-31",
+    "event_start_date": "2027-10-14",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "partial"
+  },
+  {
+    "file": "cfp-15.txt",
+    "is_cfp": true,
+    "conference_name": "Hack the Planet Con",
+    "submission_deadline": null,
+    "event_start_date": "2027-06-03",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-16.txt",
+    "is_cfp": true,
+    "conference_name": "Annual Symposium on Applied Machine Learning in Healthcare (SAMLH 2027)",
+    "submission_deadline": null,
+    "event_start_date": "2027-04-12",
+    "format": "in_person",
+    "audience_level": "advanced",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-19.txt",
+    "is_cfp": true,
+    "conference_name": "ML Ops Community Conference (MOCC) 2027",
+    "submission_deadline": "2026-10-30",
+    "event_start_date": "2027-03-08",
+    "format": "in_person",
+    "audience_level": "intermediate",
+    "travel_support": "partial"
+  },
+  {
+    "file": "cfp-22.txt",
+    "is_cfp": true,
+    "conference_name": "PHP Meetup Chennai",
+    "submission_deadline": "2026-10-24",
+    "event_start_date": "2026-11-14",
+    "format": "in_person",
+    "audience_level": "all",
+    "travel_support": "none"
+  },
+  {
+    "file": "cfp-23.txt",
+    "is_cfp": false,
+    "conference_name": "Product Camp Dublin",
+    "submission_deadline": null,
+    "event_start_date": null,
+    "format": "unclear",
+    "audience_level": "unclear",
+    "travel_support": "unclear"
+  },
+  {
+    "file": "cfp-24.txt",
+    "is_cfp": true,
+    "conference_name": "Postgres Europe Conference 2027",
+    "submission_deadline": "2027-06-01",
+    "event_start_date": "2027-11-07",
+    "format": "in_person",
+    "audience_level": "advanced",
+    "travel_support": "partial"
+  }
+]

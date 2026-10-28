@@ -1,0 +1,10 @@
+Posted: 2026-09-02
+PyHarbor 2027 - Call for Proposals
+
+PyHarbor is back in Lisbon, Portugal from 18 to 20 March 2027, a three-day in-person conference for Python developers. We are looking for talks of 30 minutes and workshops of 90 minutes. Beginners and experienced speakers are equally welcome; most of our audience has a year or two of Python behind them.
+
+Proposals close on 30 November 2026. Speakers are notified by 15 January 2027.
+
+We cover flights (economy) and two hotel nights for every accepted speaker. We do not pay speaker fees.
+
+Submit at pyharbor.example/cfp

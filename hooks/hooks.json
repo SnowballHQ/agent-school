@@ -1,0 +1,26 @@
+{
+  "description": "Agent School trace capture: local-only, course repos only (needs a .course directory)",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {"type": "command", "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/trace.py", "timeout": 10}
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {"type": "command", "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/trace.py", "timeout": 20}
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {"type": "command", "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/trace.py", "timeout": 20}
+        ]
+      }
+    ]
+  }
+}
